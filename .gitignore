@@ -1,0 +1,4 @@
+# Personal apartment notes and photos stay local.
+/personal/
+/.obsidian/
+.DS_Store
