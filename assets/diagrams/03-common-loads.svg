@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="920" viewBox="0 0 1280 920" role="img" aria-labelledby="title desc">
+  <title id="title">Общий участок питания и две параллельные нагрузки</title>
+  <desc id="desc">Функциональная схема. При заданном действующем напряжении 230 В две чисто резистивные нагрузки работают одновременно и подключены параллельно. Первая имеет мощность 2000 Вт и ток около 8,70 А, вторая — 1500 Вт и ток около 6,52 А. Общий участок питания несёт суммарный ток около 15,22 А при суммарной мощности 3500 Вт. Стрелки обозначают связи питания, а не направление переменного тока. Обратный путь и защитные проводники опущены; потери не учитываются. Это не монтажная схема и не проверка реальной проводки.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 Z" fill="#245c82"/></marker>
+    <marker id="current" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#14756b"/></marker>
+  </defs>
+  <rect width="1280" height="920" fill="white"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="58" y="54" font-size="17" fill="#14756b" font-weight="700" text-anchor="start">ГЛАВА 03 · ФУНКЦИОНАЛЬНАЯ СХЕМА</text>
+    <text x="58" y="106" font-size="32" fill="#142d42" font-weight="700" text-anchor="start">Две нагрузки — один общий участок</text>
+    <text x="58" y="145" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Задано: 230 В, две чисто резистивные нагрузки, одновременная работа.</text>
+    <rect x="300" y="190" width="680" height="105" rx="16" fill="#e6eff8" stroke="#bfd4e7" stroke-width="2"/>
+    <text x="640" y="232" font-size="27" fill="#245c82" font-weight="700" text-anchor="middle">Источник 230 В</text>
+    <text x="640" y="270" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">Переменный ток; действующее напряжение задано.</text>
+    <path d="M640 296 V343" fill="none" stroke="#245c82" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <rect x="240" y="359" width="800" height="145" rx="16" fill="#e0f2ed" stroke="#badcd3" stroke-width="2"/>
+    <text x="640" y="403" font-size="26" fill="#14756b" font-weight="700" text-anchor="middle">Общий участок питания</text>
+    <text x="640" y="447" font-size="24" fill="#142d42" font-weight="700" text-anchor="middle">Мощность нагрузок: 2000 + 1500 = 3500 Вт</text>
+    <text x="640" y="482" font-size="24" fill="#14756b" font-weight="700" text-anchor="middle">Iобщ = 3500 / 230 ≈ 15,22 А</text>
+    <path d="M640 505 V548 H334 V585" fill="none" stroke="#245c82" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <path d="M640 548 H946 V585" fill="none" stroke="#245c82" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <text x="360" y="575" font-size="18" fill="#536476" font-weight="400" text-anchor="start">Ветвь 1</text>
+    <text x="972" y="575" font-size="18" fill="#536476" font-weight="400" text-anchor="start">Ветвь 2</text>
+    <rect x="58" y="602" width="552" height="160" rx="16" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+    <rect x="670" y="602" width="552" height="160" rx="16" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+    <text x="334" y="646" font-size="27" fill="#142d42" font-weight="700" text-anchor="middle">Нагрузка 2000 Вт</text>
+    <text x="334" y="690" font-size="23" fill="#14756b" font-weight="700" text-anchor="middle">I₁ = 2000 / 230 ≈ 8,70 А</text>
+    <text x="334" y="728" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">Напряжение на нагрузке — 230 В.</text>
+    <text x="946" y="646" font-size="27" fill="#142d42" font-weight="700" text-anchor="middle">Нагрузка 1500 Вт</text>
+    <text x="946" y="690" font-size="23" fill="#14756b" font-weight="700" text-anchor="middle">I₂ = 1500 / 230 ≈ 6,52 А</text>
+    <text x="946" y="728" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">Напряжение на нагрузке — 230 В.</text>
+    <text x="58" y="809" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Стрелки показывают связи питания, а не направление переменного тока.</text>
+    <text x="58" y="842" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Обратный путь и защитные проводники не показаны. Потерями в проводах пренебрегаем.</text>
+    <text x="58" y="880" font-size="20" fill="#142d42" font-weight="700" text-anchor="start">Это не монтажная схема и не подтверждение допустимой нагрузки реальной линии.</text>
+  </g>
+</svg>

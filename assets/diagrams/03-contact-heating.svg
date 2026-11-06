@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1060" viewBox="0 0 1280 1060" role="img" aria-labelledby="title desc">
+  <title id="title">Нагрев добавочного сопротивления контакта в последовательной цепи</title>
+  <desc id="desc">Принципиальная схема для расчёта на бумаге. Идеальный источник постоянного напряжения 12 В питает замкнутую цепь из последовательных резистивного контакта Rконт и нагрузки 12 Ом. Провода идеальные, сопротивления постоянны. При Rконт 0,02 Ом ток равен примерно 0,998 А, мощность в контакте примерно 0,020 Вт. При Rконт 1 Ом ток снижается до примерно 0,923 А, а мощность в контакте возрастает до примерно 0,852 Вт. Ток снижается на 7,5 процента, а мощность контакта растёт примерно в 43 раза. Температура из этих данных не определяется. Собирать дефектный контакт не предлагается.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 Z" fill="#245c82"/></marker>
+    <marker id="current" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#14756b"/></marker>
+  </defs>
+  <rect width="1280" height="1060" fill="white"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="58" y="54" font-size="17" fill="#14756b" font-weight="700" text-anchor="start">ГЛАВА 03 · ПРИНЦИПИАЛЬНАЯ СХЕМА</text>
+    <text x="58" y="106" font-size="32" fill="#142d42" font-weight="700" text-anchor="start">Сопротивление контакта и местное тепло</text>
+    <text x="58" y="145" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Бумажная модель: идеальный источник 12 В, постоянная нагрузка 12 Ом.</text>
+    <rect x="58" y="185" width="1164" height="385" rx="16" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+    <text x="85" y="225" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Один контур. Провода считаем идеальными.</text>
+    <path d="M190 368 V315 H450 M590 315 H830 M990 315 H1080 V505 H190 V468" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="190" cy="418" r="50" fill="white" stroke="#245c82" stroke-width="4"/>
+    <text x="190" y="404" font-size="29" fill="#14756b" font-weight="700" text-anchor="middle">+</text>
+    <text x="190" y="450" font-size="29" fill="#536476" font-weight="700" text-anchor="middle">−</text>
+    <text x="263" y="415" font-size="25" fill="#142d42" font-weight="700" text-anchor="start">12 В</text>
+    <text x="263" y="444" font-size="20" fill="#536476" font-weight="400" text-anchor="start">DC</text>
+    <rect x="450" y="290" width="140" height="50" rx="0" fill="#fcebe8" stroke="#b43c31" stroke-width="4"/>
+    <rect x="830" y="290" width="160" height="50" rx="0" fill="#e0f2ed" stroke="#245c82" stroke-width="4"/>
+    <text x="520" y="272" font-size="24" fill="#96332c" font-weight="700" text-anchor="middle">Rконт</text>
+    <text x="910" y="272" font-size="24" fill="#142d42" font-weight="700" text-anchor="middle">Rнагрузки = 12 Ом</text>
+    <text x="520" y="376" font-size="19" fill="#96332c" font-weight="400" text-anchor="middle">Модель контакта</text>
+    <text x="910" y="376" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">Нагрузка</text>
+    <path d="M652 283 H765" fill="none" stroke="#14756b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#current)"/>
+    <text x="709" y="265" font-size="23" fill="#14756b" font-weight="700" text-anchor="middle">I</text>
+    <text x="690" y="437" font-size="25" fill="#142d42" font-weight="700" text-anchor="middle">I = 12 В / (12 Ом + Rконт)</text>
+    <text x="690" y="475" font-size="24" fill="#96332c" font-weight="700" text-anchor="middle">Pконт = I² × Rконт</text>
+    <text x="85" y="546" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Через контакт и нагрузку проходит один и тот же ток. DC — постоянный ток.</text>
+    <rect x="58" y="602" width="552" height="219" rx="16" fill="#e0f2ed" stroke="#badcd3" stroke-width="2"/>
+    <rect x="670" y="602" width="552" height="219" rx="16" fill="#fcebe8" stroke="#efc6bf" stroke-width="2"/>
+    <text x="86" y="645" font-size="26" fill="#14756b" font-weight="700" text-anchor="start">A · Rконт = 0,02 Ом</text>
+    <text x="86" y="691" font-size="24" fill="#142d42" font-weight="400" text-anchor="start">I = 12 / 12,02 ≈ 0,998 А</text>
+    <text x="86" y="735" font-size="26" fill="#14756b" font-weight="700" text-anchor="start">Pконт ≈ 0,020 Вт</text>
+    <text x="86" y="783" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Малое добавочное сопротивление.</text>
+    <text x="698" y="645" font-size="26" fill="#96332c" font-weight="700" text-anchor="start">Б · Rконт = 1 Ом</text>
+    <text x="698" y="691" font-size="24" fill="#142d42" font-weight="400" text-anchor="start">I = 12 / 13 ≈ 0,923 А</text>
+    <text x="698" y="735" font-size="26" fill="#96332c" font-weight="700" text-anchor="start">Pконт ≈ 0,852 Вт</text>
+    <text x="698" y="783" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Больше тепла в контакте за секунду.</text>
+    <rect x="58" y="853" width="1164" height="96" rx="16" fill="#142d42" stroke="#142d42" stroke-width="2"/>
+    <text x="85" y="891" font-size="24" fill="white" font-weight="700" text-anchor="start">Ток снизился примерно на 7,5%,</text>
+    <text x="85" y="925" font-size="24" fill="white" font-weight="700" text-anchor="start">а мощность, выделяемая в контакте, выросла примерно в 43 раза.</text>
+    <text x="58" y="988" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Температуру без данных о размерах, материалах и теплоотводе определить нельзя.</text>
+    <text x="58" y="1022" font-size="21" fill="#96332c" font-weight="700" text-anchor="start">Только расчёт на бумаге. Не собирать дефектный контакт.</text>
+  </g>
+</svg>

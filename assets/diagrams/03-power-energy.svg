@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="978" viewBox="0 0 1280 978" role="img" aria-labelledby="title desc">
+  <title id="title">Мощность во времени и одинаковая энергия двух нагрузок</title>
+  <desc id="desc">Два графика с одинаковыми осями: горизонтальная от 0 до 1 часа, вертикальная от 0 до 2 киловатт. На графике A мощность 2 кВт действует в течение 0,25 часа, затем мощность нулевая; энергия 0,50 кВт·ч. На графике Б мощность 0,5 кВт действует 1 час; энергия тоже 0,50 кВт·ч. Закрашенные прямоугольники имеют одинаковую площадь и точный одинаковый масштаб. Это учебные профили мощности.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 Z" fill="#245c82"/></marker>
+    <marker id="current" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#14756b"/></marker>
+  </defs>
+  <rect width="1280" height="978" fill="white"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="58" y="54" font-size="17" fill="#14756b" font-weight="700" text-anchor="start">ГЛАВА 03 · ГРАФИКИ МОЩНОСТИ</text>
+    <text x="58" y="106" font-size="32" fill="#142d42" font-weight="700" text-anchor="start">Разная мощность — одинаковая энергия</text>
+    <text x="58" y="145" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Энергия за интервал времени равна площади под графиком мощности.</text>
+    <rect x="58" y="188" width="552" height="536" rx="16" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+    <text x="86" y="230" font-size="26" fill="#142d42" font-weight="700" text-anchor="start">A · 2 кВт на 15 минут</text>
+    <text x="86" y="266" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Затем мощность равна нулю.</text>
+    <text x="86" y="307" font-size="19" fill="#245c82" font-weight="700" text-anchor="start">P, кВт</text>
+    <rect x="140" y="320" width="106" height="280" fill="#bfe3da"/>
+    <path d="M140 600 H564" fill="none" stroke="#dce5ed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="123" y="606" font-size="17" fill="#536476" font-weight="400" text-anchor="end">0</text>
+    <path d="M140 530 H564" fill="none" stroke="#dce5ed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="123" y="536.0" font-size="17" fill="#536476" font-weight="400" text-anchor="end">0,5</text>
+    <path d="M140 460 H564" fill="none" stroke="#dce5ed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="123" y="466" font-size="17" fill="#536476" font-weight="400" text-anchor="end">1</text>
+    <path d="M140 390 H564" fill="none" stroke="#dce5ed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="123" y="396.0" font-size="17" fill="#536476" font-weight="400" text-anchor="end">1,5</text>
+    <path d="M140 320 H564" fill="none" stroke="#dce5ed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="123" y="326" font-size="17" fill="#536476" font-weight="400" text-anchor="end">2</text>
+    <path d="M140 600 V320" fill="none" stroke="#dce5ed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M140 600 V607" fill="none" stroke="#245c82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="140" y="631" font-size="17" fill="#536476" font-weight="400" text-anchor="middle">0</text>
+    <path d="M246 600 V320" fill="none" stroke="#dce5ed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M246 600 V607" fill="none" stroke="#245c82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="246.0" y="631" font-size="17" fill="#536476" font-weight="400" text-anchor="middle">0,25</text>
+    <path d="M352 600 V320" fill="none" stroke="#dce5ed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M352 600 V607" fill="none" stroke="#245c82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="352.0" y="631" font-size="17" fill="#536476" font-weight="400" text-anchor="middle">0,5</text>
+    <path d="M458 600 V320" fill="none" stroke="#dce5ed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M458 600 V607" fill="none" stroke="#245c82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="458.0" y="631" font-size="17" fill="#536476" font-weight="400" text-anchor="middle">0,75</text>
+    <path d="M564 600 V320" fill="none" stroke="#dce5ed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M564 600 V607" fill="none" stroke="#245c82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="564" y="631" font-size="17" fill="#536476" font-weight="400" text-anchor="middle">1</text>
+    <path d="M140 320 V600 H564" fill="none" stroke="#245c82" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M140 320 H246 V600 H564" fill="none" stroke="#14756b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="564" y="659" font-size="19" fill="#245c82" font-weight="700" text-anchor="end">t, ч</text>
+    <text x="334" y="697" font-size="24" fill="#14756b" font-weight="700" text-anchor="middle">E = 2 × 0,25 = 0,50 кВт·ч</text>
+    <rect x="670" y="188" width="552" height="536" rx="16" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+    <text x="698" y="230" font-size="26" fill="#142d42" font-weight="700" text-anchor="start">Б · 0,5 кВт на 1 час</text>
+    <text x="698" y="266" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Мощность постоянна весь час.</text>
+    <text x="698" y="307" font-size="19" fill="#245c82" font-weight="700" text-anchor="start">P, кВт</text>
+    <rect x="752" y="530" width="424" height="70" fill="#f5ddb9"/>
+    <path d="M752 600 H1176" fill="none" stroke="#dce5ed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="735" y="606" font-size="17" fill="#536476" font-weight="400" text-anchor="end">0</text>
+    <path d="M752 530 H1176" fill="none" stroke="#dce5ed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="735" y="536.0" font-size="17" fill="#536476" font-weight="400" text-anchor="end">0,5</text>
+    <path d="M752 460 H1176" fill="none" stroke="#dce5ed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="735" y="466" font-size="17" fill="#536476" font-weight="400" text-anchor="end">1</text>
+    <path d="M752 390 H1176" fill="none" stroke="#dce5ed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="735" y="396.0" font-size="17" fill="#536476" font-weight="400" text-anchor="end">1,5</text>
+    <path d="M752 320 H1176" fill="none" stroke="#dce5ed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="735" y="326" font-size="17" fill="#536476" font-weight="400" text-anchor="end">2</text>
+    <path d="M752 600 V320" fill="none" stroke="#dce5ed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M752 600 V607" fill="none" stroke="#245c82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="752" y="631" font-size="17" fill="#536476" font-weight="400" text-anchor="middle">0</text>
+    <path d="M858 600 V320" fill="none" stroke="#dce5ed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M858 600 V607" fill="none" stroke="#245c82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="858.0" y="631" font-size="17" fill="#536476" font-weight="400" text-anchor="middle">0,25</text>
+    <path d="M964 600 V320" fill="none" stroke="#dce5ed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M964 600 V607" fill="none" stroke="#245c82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="964.0" y="631" font-size="17" fill="#536476" font-weight="400" text-anchor="middle">0,5</text>
+    <path d="M1070 600 V320" fill="none" stroke="#dce5ed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1070 600 V607" fill="none" stroke="#245c82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1070.0" y="631" font-size="17" fill="#536476" font-weight="400" text-anchor="middle">0,75</text>
+    <path d="M1176 600 V320" fill="none" stroke="#dce5ed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1176 600 V607" fill="none" stroke="#245c82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1176" y="631" font-size="17" fill="#536476" font-weight="400" text-anchor="middle">1</text>
+    <path d="M752 320 V600 H1176" fill="none" stroke="#245c82" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M752 530 H1176" fill="none" stroke="#9b5b17" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1176" y="659" font-size="19" fill="#245c82" font-weight="700" text-anchor="end">t, ч</text>
+    <text x="946" y="697" font-size="24" fill="#9b5b17" font-weight="700" text-anchor="middle">E = 0,5 × 1 = 0,50 кВт·ч</text>
+    <rect x="58" y="758" width="1164" height="108" rx="16" fill="#142d42" stroke="#142d42" stroke-width="2"/>
+    <text x="85" y="799" font-size="23" fill="white" font-weight="700" text-anchor="start">У графиков одинаковый масштаб по обеим осям.</text>
+    <text x="85" y="838" font-size="23" fill="white" font-weight="400" text-anchor="start">Закрашенные площади равны: в каждом случае расход — 0,50 кВт·ч.</text>
+    <text x="58" y="907" font-size="20" fill="#536476" font-weight="400" text-anchor="start">При переменной мощности складывают энергию отдельных интервалов.</text>
+    <text x="58" y="941" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Это заданные учебные профили; фактическую работу прибора они не описывают.</text>
+  </g>
+</svg>
