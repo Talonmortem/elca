@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1170" viewBox="0 0 1200 1170" role="img" aria-labelledby="title desc">
+<title id="title">Поиск учебного обрыва по участкам обесточенной цепи</title>
+<desc id="desc">Принципиальная схема рабочей части без источника: обе AA удалены, выходы P и M отсоединены от макетной платы. K2, K4, K8, K10 и K12 означают отдельные группы контактов a–e соответствующих рядов. J1 соединяет b2 и b4; R1 1 кОм стоит между e4 и e8. J2 ошибочно соединяет b8 с b12 вместо b10. В ряду 12 нет других проводников, а ряд 10 свободен, поэтому между K12 и K10 нет соединения. Между K2 и K4 ожидается малое сопротивление, близкое к показанию замкнутых щупов; между K4 и K8 — около 1 кОм; между K8 и K10 — OL. Это поиск отсутствующего контакта, не доказательство разрыва металлической жилы J2. Для восстановления без питания конец J2 переносят из b12 в b10.</desc>
+<rect width="1200" height="1170" fill="#ffffff"/>
+<g font-family="DejaVu Sans, Arial, sans-serif">
+<text x="48" y="51" font-size="19" fill="#14756b" font-weight="700" text-anchor="start">ГЛАВА 05 · ПРИНЦИПИАЛЬНАЯ СХЕМА И МОНТАЖНАЯ ТАБЛИЦА</text>
+<text x="48" y="104" font-size="34" fill="#142d42" font-weight="700" text-anchor="start">Ищи отсутствующий путь по участкам</text>
+<text x="48" y="146" font-size="21" fill="#536476" font-weight="400" text-anchor="start">Учебный обрыв. Обе AA удалены; провода P и M вынуты из рабочей платы.</text>
+<rect x="48" y="190" width="1104" height="345" rx="16" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+<text x="74" y="232" font-size="26" fill="#142d42" font-weight="700" text-anchor="start">Конец J2 находится в ряду 12 вместо ряда 10</text>
+<text x="74" y="270" font-size="21" fill="#536476" font-weight="400" text-anchor="start">K — группа a–e ряда. Внутри платы разные ряды не соединены.</text>
+<path d="M110 350 H310 M310 350 H430 M550 350 H650 M650 350 H900" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="430" y="331" width="120" height="38" rx="0" fill="#e0f2ed" stroke="#245c82" stroke-width="4"/>
+<circle cx="110" cy="350" r="6" fill="#245c82" stroke="none" stroke-width="0"/>
+<circle cx="310" cy="350" r="6" fill="#245c82" stroke="none" stroke-width="0"/>
+<circle cx="650" cy="350" r="6" fill="#245c82" stroke="none" stroke-width="0"/>
+<circle cx="900" cy="350" r="7" fill="#ffffff" stroke="#245c82" stroke-width="3"/>
+<circle cx="1090" cy="350" r="7" fill="#ffffff" stroke="#245c82" stroke-width="3"/>
+<text x="210" y="320" font-size="24" fill="#142d42" font-weight="700" text-anchor="middle">J1</text>
+<text x="490" y="315" font-size="24" fill="#142d42" font-weight="700" text-anchor="middle">R1</text>
+<text x="490" y="410" font-size="23" fill="#142d42" font-weight="700" text-anchor="middle">1 кОм</text>
+<text x="775" y="320" font-size="24" fill="#142d42" font-weight="700" text-anchor="middle">J2</text>
+<rect x="925" y="322" width="140" height="67" rx="10" fill="#fff7ed" stroke="#e6ceaa" stroke-width="2"/>
+<text x="995" y="348" font-size="21" fill="#9b5d15" font-weight="700" text-anchor="middle">нет</text>
+<text x="995" y="376" font-size="19" fill="#9b5d15" font-weight="700" text-anchor="middle">соединения</text>
+<text x="110" y="448" font-size="24" fill="#245c82" font-weight="700" text-anchor="middle">K2</text>
+<text x="310" y="448" font-size="24" fill="#245c82" font-weight="700" text-anchor="middle">K4</text>
+<text x="650" y="448" font-size="24" fill="#245c82" font-weight="700" text-anchor="middle">K8</text>
+<text x="900" y="448" font-size="24" fill="#245c82" font-weight="700" text-anchor="middle">K12</text>
+<text x="1090" y="448" font-size="24" fill="#245c82" font-weight="700" text-anchor="middle">K10</text>
+<text x="74" y="501" font-size="22" fill="#9b5d15" font-weight="700" text-anchor="start">J2 заканчивается в ряду 12; ряд 10 остаётся свободным.</text>
+<rect x="48" y="560" width="352" height="196" rx="16" fill="#edf8f5" stroke="#b9dcd2" stroke-width="2"/>
+<text x="72" y="600" font-size="25" fill="#142d42" font-weight="700" text-anchor="start">K2 ↔ K4</text>
+<text x="72" y="643" font-size="23" fill="#14756b" font-weight="700" text-anchor="start">Малое сопротивление</text>
+<text x="72" y="686" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Близко к показанию</text>
+<text x="72" y="720" font-size="20" fill="#536476" font-weight="400" text-anchor="start">замкнутых щупов.</text>
+<rect x="424" y="560" width="352" height="196" rx="16" fill="#edf8f5" stroke="#b9dcd2" stroke-width="2"/>
+<text x="448" y="600" font-size="25" fill="#142d42" font-weight="700" text-anchor="start">K4 ↔ K8</text>
+<text x="448" y="643" font-size="23" fill="#14756b" font-weight="700" text-anchor="start">Около 1 кОм</text>
+<text x="448" y="686" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Исправный резистор</text>
+<text x="448" y="720" font-size="20" fill="#536476" font-weight="400" text-anchor="start">пищать не обязан.</text>
+<rect x="800" y="560" width="352" height="196" rx="16" fill="#fff7ed" stroke="#e6ceaa" stroke-width="2"/>
+<text x="824" y="600" font-size="25" fill="#142d42" font-weight="700" text-anchor="start">K8 ↔ K10</text>
+<text x="824" y="643" font-size="23" fill="#9b5d15" font-weight="700" text-anchor="start">OL</text>
+<text x="824" y="686" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Проводящего пути</text>
+<text x="824" y="720" font-size="20" fill="#536476" font-weight="400" text-anchor="start">к ряду 10 нет.</text>
+<text x="48" y="813" font-size="27" fill="#142d42" font-weight="700" text-anchor="start">Монтажный план учебной ошибки</text>
+<rect x="48" y="838" width="1104" height="187" rx="12" fill="#ffffff" stroke="#dce5ed" stroke-width="2"/>
+<text x="74" y="870" font-size="20" fill="#536476" font-weight="700" text-anchor="start">Элемент</text>
+<text x="300" y="870" font-size="20" fill="#536476" font-weight="700" text-anchor="start">Отверстия</text>
+<text x="610" y="870" font-size="20" fill="#536476" font-weight="700" text-anchor="start">Связь</text>
+<path d="M74 884 H1126" fill="none" stroke="#dce5ed" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74" y="919" font-size="22" fill="#142d42" font-weight="700" text-anchor="start">J1</text>
+<text x="300" y="919" font-size="22" fill="#245c82" font-weight="700" text-anchor="start">b2 — b4</text>
+<text x="610" y="919" font-size="21" fill="#142d42" font-weight="400" text-anchor="start">Соединяет K2 и K4</text>
+<text x="74" y="963" font-size="22" fill="#142d42" font-weight="700" text-anchor="start">R1 = 1 кОм</text>
+<text x="300" y="963" font-size="22" fill="#245c82" font-weight="700" text-anchor="start">e4 — e8</text>
+<text x="610" y="963" font-size="21" fill="#142d42" font-weight="400" text-anchor="start">Соединяет K4 и K8</text>
+<text x="74" y="1007" font-size="22" fill="#142d42" font-weight="700" text-anchor="start">J2</text>
+<text x="300" y="1007" font-size="22" fill="#245c82" font-weight="700" text-anchor="start">b8 — b12</text>
+<text x="610" y="1007" font-size="21" fill="#142d42" font-weight="400" text-anchor="start">Конец попал в отдельный ряд 12</text>
+<text x="48" y="1065" font-size="21" fill="#536476" font-weight="400" text-anchor="start">K2 = контакты a–e ряда 2; так же читаются K4, K8, K10 и K12.</text>
+<text x="48" y="1105" font-size="21" fill="#14756b" font-weight="700" text-anchor="start">Для восстановления при удалённых AA перенеси конец J2 из b12 в b10.</text>
+<text x="48" y="1145" font-size="20" fill="#536476" font-weight="400" text-anchor="start">OL здесь указывает на отсутствие пути между щупами, а не на причину обрыва.</text>
+</g>
+</svg>

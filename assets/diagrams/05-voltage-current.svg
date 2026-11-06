@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1375" viewBox="0 0 1200 1375" role="img" aria-labelledby="title desc">
+<title id="title">Напряжение измеряют параллельно, ток — последовательно</title>
+<desc id="desc">Две отдельные принципиальные схемы одного учебного стенда. В каждой B1 — два щелочных AA, условно 3 В; штатный S1 замкнут; постоянный R0 1 кОм закрыт у источника. В верхней схеме R1 1 кОм подключён между P и M, вольтметр подключён параллельно R1: красный вход V/Ω к P, чёрный COM к M. Расчётное напряжение 1,5 В. В нижней схеме цепь P — токовый вход mA — амперметр — COM — R1 — M; расчётный ток идеального амперметра 1,5 мА. Действие реальных приборов на цепь не включено в эти числа; переключатель держателя условно изображён в плюсе. M не является N или PE. Неправильного подключения амперметра поперёк источника здесь нет.</desc>
+<rect width="1200" height="1375" fill="#ffffff"/>
+<g font-family="DejaVu Sans, Arial, sans-serif">
+<text x="48" y="51" font-size="19" fill="#14756b" font-weight="700" text-anchor="start">ГЛАВА 05 · ПРИНЦИПИАЛЬНЫЕ СХЕМЫ</text>
+<text x="48" y="104" font-size="34" fill="#142d42" font-weight="700" text-anchor="start">Напряжение и ток: разные включения</text>
+<text x="48" y="146" font-size="21" fill="#536476" font-weight="400" text-anchor="start">На обеих схемах постоянный R0 остаётся между батареями и доступным выходом P.</text>
+<rect x="48" y="190" width="1104" height="490" rx="16" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+<text x="74" y="231" font-size="27" fill="#142d42" font-weight="700" text-anchor="start">1 · Напряжение: между P и M</text>
+<text x="74" y="268" font-size="21" fill="#536476" font-weight="400" text-anchor="start">Режим V DC. Красный щуп — V/Ω; чёрный — COM.</text>
+<rect x="74" y="295" width="580" height="315" rx="16" fill="#ffffff" stroke="#91a7b8" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="98" y="327" font-size="22" fill="#536476" font-weight="700" text-anchor="start">Закрытый узел; не вскрывать</text>
+<path d="M160 383 H270 M330 383 H424 M540 383 H700" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M160 383 V430 M160 451 V477 M160 498 V580 H700" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M133 430 H187 M145 451 H175 M133 477 H187 M145 498 H175" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="113" y="439" font-size="26" fill="#14756b" font-weight="700" text-anchor="start">+</text>
+<text x="113" y="506" font-size="26" fill="#536476" font-weight="700" text-anchor="start">−</text>
+<text x="215" y="468" font-size="23" fill="#142d42" font-weight="700" text-anchor="start">B1: 2 × AA</text>
+<text x="215" y="502" font-size="20" fill="#536476" font-weight="400" text-anchor="start">3 В (условно)</text>
+<path d="M270 383 H330" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="270" cy="383" r="5" fill="#ffffff" stroke="#245c82" stroke-width="3"/>
+<circle cx="330" cy="383" r="5" fill="#ffffff" stroke="#245c82" stroke-width="3"/>
+<text x="300" y="358" font-size="22" fill="#142d42" font-weight="700" text-anchor="middle">S1</text>
+<text x="300" y="419" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">замкнут</text>
+<rect x="424" y="365" width="116" height="36" rx="0" fill="#e0f2ed" stroke="#245c82" stroke-width="4"/>
+<text x="482" y="351" font-size="23" fill="#142d42" font-weight="700" text-anchor="middle">R0</text>
+<text x="482" y="432" font-size="23" fill="#142d42" font-weight="700" text-anchor="middle">1 кОм</text>
+<text x="482" y="465" font-size="19" fill="#14756b" font-weight="700" text-anchor="middle">остаётся</text>
+<text x="482" y="492" font-size="19" fill="#14756b" font-weight="700" text-anchor="middle">в цепи</text>
+<circle cx="700" cy="383" r="6" fill="#245c82" stroke="none" stroke-width="0"/>
+<circle cx="700" cy="580" r="6" fill="#245c82" stroke="none" stroke-width="0"/>
+<text x="700" y="421" font-size="24" fill="#14756b" font-weight="700" text-anchor="middle">P</text>
+<text x="700" y="612" font-size="24" fill="#245c82" font-weight="700" text-anchor="middle">M</text>
+<path d="M700 383 H840 V443 M840 525 V580 H700" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="819" y="443" width="42" height="82" rx="0" fill="#e0f2ed" stroke="#245c82" stroke-width="4"/>
+<text x="807" y="474" font-size="23" fill="#142d42" font-weight="700" text-anchor="end">R1</text>
+<text x="807" y="510" font-size="21" fill="#142d42" font-weight="400" text-anchor="end">1 кОм</text>
+<path d="M700 383 V338 H1024 V433" fill="none" stroke="#b33636" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1024 517 V580 H700" fill="none" stroke="#24313d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1024" cy="475" r="42" fill="#ffffff" stroke="#245c82" stroke-width="4"/>
+<text x="1024" y="488" font-size="34" fill="#14756b" font-weight="700" text-anchor="middle">V</text>
+<text x="1045" y="405" font-size="21" fill="#b33636" font-weight="700" text-anchor="start">V/Ω</text>
+<text x="1045" y="555" font-size="21" fill="#24313d" font-weight="700" text-anchor="start">COM</text>
+<circle cx="700" cy="383" r="6" fill="#245c82" stroke="none" stroke-width="0"/>
+<circle cx="700" cy="580" r="6" fill="#245c82" stroke="none" stroke-width="0"/>
+<circle cx="840" cy="580" r="6" fill="#245c82" stroke="none" stroke-width="0"/>
+<text x="74" y="651" font-size="25" fill="#14756b" font-weight="700" text-anchor="start">U_PM ≈ 1,5 В</text>
+<text x="350" y="651" font-size="22" fill="#142d42" font-weight="400" text-anchor="start">Вольтметр подключён параллельно R1.</text>
+<rect x="48" y="704" width="1104" height="490" rx="16" fill="#edf8f5" stroke="#b9dcd2" stroke-width="2"/>
+<text x="74" y="745" font-size="27" fill="#142d42" font-weight="700" text-anchor="start">2 · Ток: в разрыв цепи</text>
+<text x="74" y="782" font-size="21" fill="#536476" font-weight="400" text-anchor="start">Режим mA DC; вход и диапазон — по руководству своего прибора.</text>
+<rect x="74" y="809" width="580" height="315" rx="16" fill="#ffffff" stroke="#91a7b8" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="98" y="841" font-size="22" fill="#536476" font-weight="700" text-anchor="start">Закрытый узел; не вскрывать</text>
+<path d="M160 897 H270 M330 897 H424 M540 897 H700" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M160 897 V944 M160 965 V991 M160 1012 V1094 H700" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M133 944 H187 M145 965 H175 M133 991 H187 M145 1012 H175" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="113" y="953" font-size="26" fill="#14756b" font-weight="700" text-anchor="start">+</text>
+<text x="113" y="1020" font-size="26" fill="#536476" font-weight="700" text-anchor="start">−</text>
+<text x="215" y="982" font-size="23" fill="#142d42" font-weight="700" text-anchor="start">B1: 2 × AA</text>
+<text x="215" y="1016" font-size="20" fill="#536476" font-weight="400" text-anchor="start">3 В (условно)</text>
+<path d="M270 897 H330" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="270" cy="897" r="5" fill="#ffffff" stroke="#245c82" stroke-width="3"/>
+<circle cx="330" cy="897" r="5" fill="#ffffff" stroke="#245c82" stroke-width="3"/>
+<text x="300" y="872" font-size="22" fill="#142d42" font-weight="700" text-anchor="middle">S1</text>
+<text x="300" y="933" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">замкнут</text>
+<rect x="424" y="879" width="116" height="36" rx="0" fill="#e0f2ed" stroke="#245c82" stroke-width="4"/>
+<text x="482" y="865" font-size="23" fill="#142d42" font-weight="700" text-anchor="middle">R0</text>
+<text x="482" y="946" font-size="23" fill="#142d42" font-weight="700" text-anchor="middle">1 кОм</text>
+<text x="482" y="979" font-size="19" fill="#14756b" font-weight="700" text-anchor="middle">остаётся</text>
+<text x="482" y="1006" font-size="19" fill="#14756b" font-weight="700" text-anchor="middle">в цепи</text>
+<circle cx="700" cy="897" r="6" fill="#245c82" stroke="none" stroke-width="0"/>
+<circle cx="700" cy="1094" r="6" fill="#245c82" stroke="none" stroke-width="0"/>
+<text x="700" y="935" font-size="24" fill="#14756b" font-weight="700" text-anchor="middle">P</text>
+<text x="700" y="1126" font-size="24" fill="#245c82" font-weight="700" text-anchor="middle">M</text>
+<path d="M700 897 H797" fill="none" stroke="#b33636" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M873 897 H1030 V958" fill="none" stroke="#24313d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="835" cy="897" r="38" fill="#ffffff" stroke="#245c82" stroke-width="4"/>
+<text x="835" y="910" font-size="32" fill="#14756b" font-weight="700" text-anchor="middle">A</text>
+<text x="747" y="867" font-size="21" fill="#b33636" font-weight="700" text-anchor="middle">mA</text>
+<text x="933" y="867" font-size="21" fill="#24313d" font-weight="700" text-anchor="middle">COM</text>
+<rect x="1009" y="958" width="42" height="82" rx="0" fill="#e0f2ed" stroke="#245c82" stroke-width="4"/>
+<path d="M1030 1040 V1094 H700" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="990" y="991" font-size="23" fill="#142d42" font-weight="700" text-anchor="end">R1</text>
+<text x="990" y="1026" font-size="21" fill="#142d42" font-weight="400" text-anchor="end">1 кОм</text>
+<circle cx="700" cy="897" r="6" fill="#245c82" stroke="none" stroke-width="0"/>
+<circle cx="700" cy="1094" r="6" fill="#245c82" stroke="none" stroke-width="0"/>
+<text x="74" y="1165" font-size="25" fill="#14756b" font-weight="700" text-anchor="start">I ≈ 1,5 мА</text>
+<text x="350" y="1165" font-size="22" fill="#142d42" font-weight="400" text-anchor="start">Весь ток R1 проходит через амперметр.</text>
+<text x="48" y="1240" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Обе схемы принципиальные. S1 показан условно в плюсе; его место не меняют.</text>
+<text x="48" y="1274" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Расчёт: B1 = 3 В; R0 = R1 = 1 кОм; провода и приборы считаются идеальными.</text>
+<text x="48" y="1308" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Реальный вольтметр нагружает цепь; амперметр добавляет сопротивление.</text>
+<text x="48" y="1345" font-size="21" fill="#14756b" font-weight="700" text-anchor="start">Перед изменением схемы вынуть AA. M — возврат стенда, не N и не PE.</text>
+</g>
+</svg>
