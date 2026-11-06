@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="830" viewBox="0 0 1200 830" role="img" aria-labelledby="title desc">
+  <title id="title">Вольты, амперы, омы и ватты: четыре разные величины</title>
+  <desc id="desc">Учебная инфографика. Напряжение U в вольтах задаётся между двумя точками и связано с энергией на единицу заряда. Ток I в амперах показывает перенос заряда через выбранное сечение за секунду. Сопротивление R в омах связывает напряжение и ток омического резистора. Мощность P в ваттах показывает скорость преобразования энергии. Для установившегося постоянного тока: I равно U, делённому на R, для омического резистора; P равно U, умноженному на I, для рассматриваемой нагрузки. Это не электрическая схема соединений.</desc>
+  <rect width="1200" height="830" fill="#ffffff"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="48" y="51" font-size="18" font-weight="700" fill="#14756b">ВВОДНАЯ ГЛАВА A1 · ЧЕТЫРЕ ВЕЛИЧИНЫ</text>
+    <text x="48" y="104" font-size="36" font-weight="700" fill="#142d42">Вольты, амперы, омы и ватты</text>
+    <text x="48" y="145" font-size="21" fill="#536476">Каждая единица отвечает на свой вопрос. Одно число не заменяет остальные.</text>
+
+    <rect x="48" y="181" width="540" height="224" rx="16" fill="#edf8f5" stroke="#b9dcd2" stroke-width="2"/>
+    <text x="76" y="256" font-size="58" font-weight="700" fill="#14756b">U</text>
+    <text x="171" y="228" font-size="26" font-weight="700" fill="#142d42">Напряжение</text>
+    <text x="171" y="265" font-size="23" fill="#14756b">Вольты · В · V</text>
+    <text x="76" y="322" font-size="22" fill="#142d42">Энергия на единицу заряда.</text>
+    <text x="76" y="363" font-size="22" font-weight="700" fill="#11695f">МЕЖДУ двумя точками.</text>
+
+    <rect x="612" y="181" width="540" height="224" rx="16" fill="#eef4fb" stroke="#c5d8ed" stroke-width="2"/>
+    <text x="640" y="256" font-size="58" font-weight="700" fill="#245c82">I</text>
+    <text x="735" y="228" font-size="26" font-weight="700" fill="#142d42">Ток</text>
+    <text x="735" y="265" font-size="23" fill="#245c82">Амперы · А · A</text>
+    <text x="640" y="322" font-size="22" fill="#142d42">Сколько заряда проходит за секунду.</text>
+    <text x="640" y="363" font-size="22" font-weight="700" fill="#245c82">ЧЕРЕЗ выбранное сечение цепи.</text>
+
+    <rect x="48" y="429" width="540" height="224" rx="16" fill="#fff6e9" stroke="#ead1aa" stroke-width="2"/>
+    <text x="76" y="504" font-size="58" font-weight="700" fill="#9b5d15">R</text>
+    <text x="171" y="476" font-size="26" font-weight="700" fill="#142d42">Сопротивление</text>
+    <text x="171" y="513" font-size="23" fill="#9b5d15">Омы · Ом · Ω</text>
+    <text x="76" y="570" font-size="22" fill="#142d42">Для омического резистора:</text>
+    <text x="76" y="611" font-size="22" font-weight="700" fill="#9b5d15">при том же U больше R → меньше I.</text>
+
+    <rect x="612" y="429" width="540" height="224" rx="16" fill="#f5f0fb" stroke="#d9c9eb" stroke-width="2"/>
+    <text x="640" y="504" font-size="58" font-weight="700" fill="#715095">P</text>
+    <text x="735" y="476" font-size="26" font-weight="700" fill="#142d42">Мощность</text>
+    <text x="735" y="513" font-size="23" fill="#715095">Ватты · Вт · W</text>
+    <text x="640" y="570" font-size="22" fill="#142d42">Скорость преобразования энергии.</text>
+    <text x="640" y="611" font-size="22" font-weight="700" fill="#715095">1 Вт = 1 джоуль за секунду.</text>
+
+    <rect x="48" y="681" width="1104" height="99" rx="14" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+    <text x="72" y="721" font-size="25" font-weight="700" fill="#142d42">Для постоянного тока: I = U / R; P = U × I</text>
+    <text x="72" y="758" font-size="20" fill="#536476">U и I относятся к одному элементу. Первая формула — для омического резистора.</text>
+    <text x="48" y="813" font-size="18" fill="#536476">Инфографика понятий; это не схема электрических соединений.</text>
+  </g>
+</svg>

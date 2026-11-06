@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="960" viewBox="0 0 1200 960" role="img" aria-labelledby="title desc">
+  <title id="title">Закон Ома и мощность в одной замкнутой цепи</title>
+  <desc id="desc">Учебная принципиальная схема: идеальный батарейный источник B1 3 В подключён к резистору R1 1 кОм идеальными проводами. Условное направление тока — от положительного вывода источника через резистор к отрицательному. Ток равен 3 мА, напряжение между точками A и B по сторонам резистора равно 3 В, мощность резистора равна 9 мВт. Надпись U_AB обозначает напряжение между двумя отмеченными точками, но не дополнительный провод. В таблице два отдельных условия: 3 В и 2 кОм дают 1,5 мА и 4,5 мВт; 6 В и 1 кОм дают 6 мА и 36 мВт. Постоянное сопротивление, установившийся постоянный ток; только бумажная модель, не инструкция сборки.</desc>
+  <defs>
+    <marker id="current-arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L11 6 L0 12 Z" fill="#14756b"/></marker>
+  </defs>
+  <rect width="1200" height="960" fill="#ffffff"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="48" y="51" font-size="18" font-weight="700" fill="#14756b">ВВОДНАЯ ГЛАВА A1 · ПРИНЦИПИАЛЬНАЯ СХЕМА</text>
+    <text x="48" y="104" font-size="34" font-weight="700" fill="#142d42">Одна цепь — четыре связанные величины</text>
+    <text x="48" y="145" font-size="20" fill="#536476">Идеальный источник 3 В и резистор 1 кОм. Замкнутая цепь постоянного тока.</text>
+
+    <rect x="48" y="177" width="700" height="456" rx="16" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+    <text x="76" y="217" font-size="23" font-weight="700" fill="#142d42">Путь тока замкнут</text>
+    <g fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M168 376 V298 H520 V376"/>
+      <path d="M520 484 V554 H168 V454"/>
+      <path d="M168 399 V431"/>
+      <path d="M138 376 H198 M152 399 H184 M138 431 H198 M152 454 H184"/>
+    </g>
+    <text x="117" y="383" font-size="28" font-weight="700" fill="#14756b">+</text>
+    <text x="117" y="463" font-size="28" font-weight="700" fill="#536476">−</text>
+    <text x="219" y="405" font-size="26" font-weight="700" fill="#142d42">B1</text>
+    <text x="219" y="442" font-size="26" font-weight="700" fill="#14756b">3 В</text>
+    <rect x="497" y="376" width="46" height="108" fill="#e0f2ed" stroke="#245c82" stroke-width="4"/>
+    <text x="472" y="415" text-anchor="end" font-size="25" font-weight="700" fill="#142d42">R1</text>
+    <text x="472" y="451" text-anchor="end" font-size="25" fill="#142d42">1 кОм</text>
+    <circle cx="520" cy="340" r="6" fill="#245c82"/>
+    <circle cx="520" cy="520" r="6" fill="#245c82"/>
+    <text x="548" y="348" font-size="24" font-weight="700" fill="#245c82">A (+)</text>
+    <text x="548" y="528" font-size="24" font-weight="700" fill="#245c82">B (−)</text>
+    <text x="568" y="427" font-size="23" font-weight="700" fill="#9b5d15">U_AB = 3 В</text>
+    <text x="568" y="461" font-size="18" fill="#9b5d15">между A и B</text>
+    <path d="M270 268 H425" fill="none" stroke="#14756b" stroke-width="3" stroke-linecap="round" marker-end="url(#current-arrow)"/>
+    <text x="348" y="247" text-anchor="middle" font-size="24" font-weight="700" fill="#14756b">I = 3 мА</text>
+    <text x="76" y="599" font-size="19" fill="#536476">Стрелка I: условный ток от «+» через R1 к «−».</text>
+
+    <rect x="772" y="177" width="380" height="456" rx="16" fill="#edf8f5" stroke="#b9dcd2" stroke-width="2"/>
+    <text x="796" y="218" font-size="25" font-weight="700" fill="#142d42">Считаем по шагам</text>
+    <text x="796" y="263" font-size="23" fill="#536476">1 кОм = 1000 Ом</text>
+    <path d="M796 286 H1128" fill="none" stroke="#b9dcd2" stroke-width="2"/>
+    <text x="796" y="329" font-size="22" font-weight="700" fill="#142d42">1. Ток через R1</text>
+    <text x="796" y="370" font-size="23" fill="#142d42">I = 3 В / 1000 Ом</text>
+    <text x="796" y="412" font-size="24" font-weight="700" fill="#14756b">I = 0,003 А = 3 мА</text>
+    <text x="796" y="468" font-size="22" font-weight="700" fill="#142d42">2. Мощность R1</text>
+    <text x="796" y="509" font-size="23" fill="#142d42">P = 3 В × 0,003 А</text>
+    <text x="796" y="551" font-size="24" font-weight="700" fill="#14756b">P = 0,009 Вт = 9 мВт</text>
+    <text x="796" y="600" font-size="19" fill="#536476">Заряд в R1 не расходуется.</text>
+
+    <rect x="48" y="657" width="1104" height="207" rx="16" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+    <text x="72" y="697" font-size="25" font-weight="700" fill="#142d42">Изменяем только одно условие</text>
+    <g font-size="21" fill="#536476" font-weight="700">
+      <text x="72" y="741">Условия</text>
+      <text x="481" y="741">U</text>
+      <text x="652" y="741">R</text>
+      <text x="825" y="741">I</text>
+      <text x="1004" y="741">P</text>
+    </g>
+    <path d="M72 757 H1128" fill="none" stroke="#dce5ed" stroke-width="2"/>
+    <g font-size="22" fill="#142d42">
+      <text x="72" y="794">Больше сопротивление</text>
+      <text x="481" y="794">3 В</text>
+      <text x="652" y="794">2 кОм</text>
+      <text x="825" y="794">1,5 мА</text>
+      <text x="1004" y="794">4,5 мВт</text>
+      <text x="72" y="837">Больше напряжение</text>
+      <text x="481" y="837">6 В</text>
+      <text x="652" y="837">1 кОм</text>
+      <text x="825" y="837">6 мА</text>
+      <text x="1004" y="837">36 мВт</text>
+    </g>
+    <text x="48" y="905" font-size="19" fill="#536476">Модель: идеальные источник и провода, постоянное R, установившийся режим.</text>
+    <text x="48" y="936" font-size="19" fill="#536476">Только разбор на бумаге. Надпись U_AB не обозначает дополнительное соединение.</text>
+  </g>
+</svg>
