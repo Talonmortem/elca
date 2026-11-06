@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1110" viewBox="0 0 1200 1110" role="img" aria-labelledby="title desc">
+<title id="title">Монтаж закрытой части стенда с тремя независимыми двухконтактными соединителями</title>
+<desc id="desc">Упрощённая монтажная схема. Рядом с закрываемым держателем двух AA со штатным выключателем расположен отдельный изолирующий корпус. В нём закреплены постоянный R0 1 кОм и три отдельных двухпортовых соединителя T1, T2 и T3. Оба порта каждого соединителя электрически общие; корпуса между собой не соединены. Положительный штатный выход держателя идёт в T1, другой порт T1 — к одному выводу R0. Второй вывод R0 идёт в T2, второй порт T2 — к внешнему P. Отрицательный штатный выход держателя идёт в T3, второй порт T3 — к внешнему M. От P и M идут только ограниченный выход и возврат на макетную плату, соответственно в a2 и a8. Все соединения до R0 скрыты в корпусе модуля. Между держателем и модулем проходят лишь короткие целые штатные изолированные провода; все провода закреплены и разгружены от натяжения. Для сборки обе батарейки вынуты. Крышки не нарисованы для показа устройства. Модуль закрывают до установки батареек, держатель — после.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10 Z" fill="#14756b"/></marker></defs>
+<rect width="1200" height="1110" fill="#ffffff"/>
+<g font-family="DejaVu Sans, Arial, sans-serif">
+<text x="48" y="51" font-size="19" fill="#14756b" font-weight="700" text-anchor="start">ГЛАВА 04 · МОНТАЖНАЯ СХЕМА ЗАКРЫТОЙ ЧАСТИ</text>
+<text x="48" y="104" font-size="34" fill="#142d42" font-weight="700" text-anchor="start">Три соединителя — три разных узла</text>
+<text x="48" y="146" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Упрощённый вид сверху. Соединения выполняют только при вынутых элементах AA.</text>
+<rect x="48" y="190" width="1104" height="540" rx="16" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2" />
+<text x="72" y="232" font-size="24" fill="#142d42" font-weight="700" text-anchor="start">Два закрытых отсека: держатель и модуль R0</text>
+<text x="72" y="266" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Штатные провода между отсеками короткие, целые и закреплённые.</text>
+<rect x="390" y="288" width="658" height="405" rx="14" fill="#eef3f6" stroke="#a9bac8" stroke-width="3" />
+<rect x="88" y="292" width="265" height="355" rx="12" fill="#eef2f5" stroke="#9fafbc" stroke-width="2" />
+<text x="220" y="331" font-size="24" fill="#142d42" font-weight="700" text-anchor="middle">Держатель B1</text>
+<text x="220" y="366" font-size="20" fill="#536476" font-weight="400" text-anchor="middle">2 × AA; штатный S1</text>
+<text x="326" y="403" font-size="27" fill="#14756b" font-weight="700" text-anchor="middle">+</text>
+<text x="326" y="623" font-size="27" fill="#245c82" font-weight="700" text-anchor="middle">−</text>
+<text x="220" y="431" font-size="24" fill="#142d42" font-weight="700" text-anchor="middle">S1: OFF</text>
+<text x="220" y="480" font-size="27" fill="#9b5d15" font-weight="700" text-anchor="middle">ОБЕ AA</text>
+<text x="220" y="516" font-size="27" fill="#9b5d15" font-weight="700" text-anchor="middle">ВЫНУТЫ</text>
+<text x="220" y="565" font-size="20" fill="#536476" font-weight="400" text-anchor="middle">Выходы определены</text>
+<text x="220" y="595" font-size="20" fill="#536476" font-weight="400" text-anchor="middle">по паспорту</text>
+<rect x="420" y="310" width="150" height="146" rx="12" fill="#f5f0e8" stroke="#b6a68e" stroke-width="2" />
+<text x="495" y="341" font-size="25" fill="#142d42" font-weight="700" text-anchor="middle">T1</text>
+<path d="M445 392 H545" fill="none" stroke="#97754a" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="445" cy="392" r="10" fill="#ffffff" stroke="#245c82" stroke-width="3"/>
+<circle cx="545" cy="392" r="10" fill="#ffffff" stroke="#245c82" stroke-width="3"/>
+<text x="495" y="438" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">общий узел</text>
+<rect x="785" y="310" width="150" height="146" rx="12" fill="#f5f0e8" stroke="#b6a68e" stroke-width="2" />
+<text x="860" y="341" font-size="25" fill="#142d42" font-weight="700" text-anchor="middle">T2</text>
+<path d="M810 392 H910" fill="none" stroke="#97754a" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="810" cy="392" r="10" fill="#ffffff" stroke="#245c82" stroke-width="3"/>
+<circle cx="910" cy="392" r="10" fill="#ffffff" stroke="#245c82" stroke-width="3"/>
+<text x="860" y="438" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">общий узел</text>
+<rect x="785" y="534" width="150" height="146" rx="12" fill="#f5f0e8" stroke="#b6a68e" stroke-width="2" />
+<text x="860" y="565" font-size="25" fill="#142d42" font-weight="700" text-anchor="middle">T3</text>
+<path d="M810 616 H910" fill="none" stroke="#97754a" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="810" cy="616" r="10" fill="#ffffff" stroke="#245c82" stroke-width="3"/>
+<circle cx="910" cy="616" r="10" fill="#ffffff" stroke="#245c82" stroke-width="3"/>
+<text x="860" y="662" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">общий узел</text>
+<path d="M353 392 H445" fill="none" stroke="#245c82" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M545 392 H630 M730 392 H810" fill="none" stroke="#7f9bb1" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M545 392 H630 M730 392 H810" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="630" y="372" width="100" height="40" rx="0" fill="#e0f2ed" stroke="#245c82" stroke-width="3" />
+<text x="680" y="344" font-size="25" fill="#142d42" font-weight="700" text-anchor="middle">R0</text>
+<text x="680" y="449" font-size="22" fill="#142d42" font-weight="700" text-anchor="middle">1 кОм</text>
+<text x="680" y="480" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">≥ 0,25 Вт</text>
+<path d="M910 392 H1100" fill="none" stroke="#14756b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M353 616 H810 M910 616 H1100" fill="none" stroke="#245c82" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="376" y="371" width="28" height="42" rx="5" fill="#c5d3dd" stroke="#7892a6" stroke-width="2" />
+<path d="M385 376 V408 M395 376 V408" fill="none" stroke="#7892a6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="1034" y="371" width="28" height="42" rx="5" fill="#c5d3dd" stroke="#7892a6" stroke-width="2" />
+<path d="M1043 376 V408 M1053 376 V408" fill="none" stroke="#7892a6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="376" y="595" width="28" height="42" rx="5" fill="#c5d3dd" stroke="#7892a6" stroke-width="2" />
+<path d="M385 600 V632 M395 600 V632" fill="none" stroke="#7892a6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="1034" y="595" width="28" height="42" rx="5" fill="#c5d3dd" stroke="#7892a6" stroke-width="2" />
+<path d="M1043 600 V632 M1053 600 V632" fill="none" stroke="#7892a6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="1100" cy="392" r="7" fill="#14756b" stroke="none" stroke-width="0"/>
+<circle cx="1100" cy="616" r="7" fill="#245c82" stroke="none" stroke-width="0"/>
+<text x="1100" y="355" font-size="24" fill="#14756b" font-weight="700" text-anchor="middle">P (+)</text>
+<text x="1100" y="437" font-size="21" fill="#536476" font-weight="400" text-anchor="middle">к a2</text>
+<text x="1100" y="579" font-size="24" fill="#245c82" font-weight="700" text-anchor="middle">M (−)</text>
+<text x="1100" y="660" font-size="21" fill="#536476" font-weight="400" text-anchor="middle">к a8</text>
+<text x="420" y="518" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Выводы R0 закрыты изоляцией.</text>
+<text x="72" y="683" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Детали закреплены.</text>
+<text x="72" y="715" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Провода не натягиваются.</text>
+<rect x="48" y="758" width="535" height="196" rx="16" fill="#fff7ed" stroke="#e6ceaa" stroke-width="2" />
+<text x="72" y="797" font-size="23" fill="#9b5d15" font-weight="700" text-anchor="start">T1 и T2 — разные корпуса</text>
+<text x="72" y="838" font-size="21" fill="#142d42" font-weight="400" text-anchor="start">Нельзя заменить их одним общим</text>
+<text x="72" y="872" font-size="21" fill="#142d42" font-weight="400" text-anchor="start">многоместным соединителем:</text>
+<text x="72" y="906" font-size="21" fill="#142d42" font-weight="400" text-anchor="start">его шина обойдёт R0.</text>
+<rect x="607" y="758" width="545" height="196" rx="16" fill="#edf8f5" stroke="#b9dcd2" stroke-width="2" />
+<text x="631" y="797" font-size="23" fill="#14756b" font-weight="700" text-anchor="start">Снаружи — только P и M</text>
+<text x="631" y="838" font-size="21" fill="#142d42" font-weight="400" text-anchor="start">P выходит после ограничителя R0.</text>
+<text x="631" y="872" font-size="21" fill="#142d42" font-weight="400" text-anchor="start">Неограниченный плюс не выводится</text>
+<text x="631" y="906" font-size="21" fill="#142d42" font-weight="400" text-anchor="start">на рабочую макетную плату.</text>
+<text x="48" y="997" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Назначение выходов держателя берут из паспорта; цвет провода этого не доказывает.</text>
+<text x="48" y="1031" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Модуль закрывают до установки AA; держатель — после. Крышки условно не нарисованы.</text>
+<text x="48" y="1065" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Размеры условные; допустимые зажимы, изоляция и подготовка выводов описаны в главе.</text>
+</g>
+</svg>

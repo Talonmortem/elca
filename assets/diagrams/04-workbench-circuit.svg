@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1135" viewBox="0 0 1200 1135" role="img" aria-labelledby="title desc">
+<title id="title">Батарейный стенд: постоянный ограничитель R0 и отдельная нагрузка R1</title>
+<desc id="desc">Принципиальная схема учебного стенда. B1 — два щелочных элемента AA LR6, 3 В номинально. Штатный S1 условно показан в плюсе и разомкнут; в конкретном держателе он может разрывать другой провод. Постоянный R0 1 кОм, допуск 5 процентов, мощность не менее 0,25 Вт находится в закрытой части. P — выход после R0, M — возврат к минусу, без связи с защитным заземлением. R1 1 кОм соединяет P и M. При изображённом разомкнутом S1 ток равен нулю. Для замкнутого S1 и идеальных номиналов 3 В ток 1,5 мА, напряжение P–M 1,5 В. При снятой нагрузке P–M приближается к напряжению батареи. Для принятого расчётного предела 3,4 В и R0 не ниже 950 Ом ток при замыкании только после R0 не превышает 3,58 мА, мощность R0 — 12,2 мВт. Короткое замыкание не является опытом; участок до R0 им не защищён.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10 Z" fill="#14756b"/></marker></defs>
+<rect width="1200" height="1135" fill="#ffffff"/>
+<g font-family="DejaVu Sans, Arial, sans-serif">
+<text x="48" y="51" font-size="19" fill="#14756b" font-weight="700" text-anchor="start">ГЛАВА 04 · ПРИНЦИПИАЛЬНАЯ СХЕМА</text>
+<text x="48" y="104" font-size="34" fill="#142d42" font-weight="700" text-anchor="start">Ограничитель остаётся у источника</text>
+<text x="48" y="146" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Только две обычные щелочные AA. Рабочая часть получает питание через R0.</text>
+<rect x="48" y="190" width="690" height="430" rx="16" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2" />
+<rect x="770" y="190" width="382" height="430" rx="16" fill="#edf8f5" stroke="#b9dcd2" stroke-width="2" />
+<text x="72" y="229" font-size="24" fill="#142d42" font-weight="700" text-anchor="start">Закрытая часть: источник и R0</text>
+<text x="794" y="229" font-size="24" fill="#142d42" font-weight="700" text-anchor="start">Рабочая часть</text>
+<path d="M180 300 H330 M410 300 H520 M645 300 H1030 V376" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M1030 476 V545 H180 V470 M180 300 V390 M180 415 V445" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M150 390 H210 M164 415 H196 M150 445 H210 M164 470 H196" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="330" cy="300" r="6" fill="#ffffff" stroke="#245c82" stroke-width="3"/>
+<circle cx="410" cy="300" r="6" fill="#ffffff" stroke="#245c82" stroke-width="3"/>
+<path d="M330 300 L398 266" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<text x="370" y="256" font-size="24" fill="#142d42" font-weight="700" text-anchor="middle">S1</text>
+<text x="375" y="348" font-size="20" fill="#536476" font-weight="400" text-anchor="middle">разомкнут</text>
+<rect x="520" y="280" width="125" height="40" rx="0" fill="#e0f2ed" stroke="#245c82" stroke-width="4" />
+<text x="582" y="258" font-size="25" fill="#142d42" font-weight="700" text-anchor="middle">R0</text>
+<text x="582" y="350" font-size="24" fill="#142d42" font-weight="700" text-anchor="middle">1 кОм ±5 %</text>
+<text x="582" y="384" font-size="20" fill="#536476" font-weight="400" text-anchor="middle">не менее 0,25 Вт</text>
+<text x="582" y="418" font-size="20" fill="#14756b" font-weight="700" text-anchor="middle">не снимать</text>
+<text x="138" y="397" font-size="28" fill="#14756b" font-weight="700" text-anchor="end">+</text>
+<text x="138" y="478" font-size="28" fill="#536476" font-weight="700" text-anchor="end">−</text>
+<text x="235" y="431" font-size="24" fill="#142d42" font-weight="700" text-anchor="start">B1: 2 × AA</text>
+<text x="235" y="466" font-size="21" fill="#536476" font-weight="400" text-anchor="start">3 В номинально</text>
+<circle cx="810" cy="300" r="6" fill="#245c82" stroke="none" stroke-width="0"/>
+<circle cx="810" cy="545" r="6" fill="#245c82" stroke="none" stroke-width="0"/>
+<text x="810" y="282" font-size="24" fill="#14756b" font-weight="700" text-anchor="middle">P (+)</text>
+<text x="810" y="584" font-size="24" fill="#245c82" font-weight="700" text-anchor="middle">M (−)</text>
+<rect x="1008" y="376" width="44" height="100" rx="0" fill="#e0f2ed" stroke="#245c82" stroke-width="4" />
+<text x="984" y="401" font-size="24" fill="#142d42" font-weight="700" text-anchor="end">R1</text>
+<text x="984" y="437" font-size="22" fill="#142d42" font-weight="400" text-anchor="end">1 кОм ±5 %</text>
+<text x="984" y="472" font-size="20" fill="#536476" font-weight="400" text-anchor="end">≥ 0,25 Вт</text>
+<text x="72" y="593" font-size="21" fill="#536476" font-weight="400" text-anchor="start">На рисунке S1 разомкнут: I = 0.</text>
+<text x="48" y="660" font-size="19" fill="#536476" font-weight="400" text-anchor="start">S1 показан условно в плюсе: штатный выключатель может разрывать другой провод.</text>
+<text x="48" y="691" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Расположение S1 не меняют. При сборке обе батарейки вынуты. M не обозначает PE.</text>
+<rect x="48" y="719" width="1104" height="163" rx="16" fill="#edf8f5" stroke="#b9dcd2" stroke-width="2" />
+<text x="72" y="757" font-size="23" fill="#142d42" font-weight="700" text-anchor="start">Расчёт для замкнутого S1: U_B = 3,0 В; R0 = R1 = 1 кОм</text>
+<text x="72" y="797" font-size="23" fill="#14756b" font-weight="700" text-anchor="start">I = 3 / (1000 + 1000) = 1,5 мА;     U_PM = I × R1 = 1,5 В.</text>
+<text x="72" y="835" font-size="21" fill="#142d42" font-weight="400" text-anchor="start">Без нагрузки и при замкнутом S1: U_PM ≈ U_B.</text>
+<text x="72" y="864" font-size="20" fill="#536476" font-weight="400" text-anchor="start">R0 ограничивает ток, но не поддерживает постоянное напряжение выхода.</text>
+<rect x="48" y="906" width="1104" height="173" rx="16" fill="#fff7ed" stroke="#e6ceaa" stroke-width="2" />
+<text x="72" y="944" font-size="23" fill="#9b5d15" font-weight="700" text-anchor="start">Замыкание только ПОСЛЕ R0: оценка предела, не опыт</text>
+<text x="72" y="981" font-size="21" fill="#142d42" font-weight="400" text-anchor="start">Принято U_B ≤ 3,4 В; минимальное R0 = 1000 × 0,95 = 950 Ом.</text>
+<text x="72" y="1017" font-size="22" fill="#142d42" font-weight="700" text-anchor="start">I ≤ 3,4 / 950 ≈ 3,58 мА;    P_R0 ≤ 3,4² / 950 ≈ 12,2 мВт.</text>
+<text x="72" y="1054" font-size="21" fill="#9b5d15" font-weight="700" text-anchor="start">R0 не защищает участок ДО себя. КЗ намеренно не создают.</text>
+<text x="48" y="1115" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Показаны электрические соединения, не раскладка деталей. Значения — расчётная модель.</text>
+</g>
+</svg>
