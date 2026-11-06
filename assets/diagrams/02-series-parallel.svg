@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1040" viewBox="0 0 1280 1040" role="img" aria-labelledby="title desc">
+  <title id="title">Последовательное и параллельное соединение двух резисторов по 1 кОм</title>
+  <desc id="desc">Сверху батарейный источник B1 3 В и два последовательных резистора R1 и R2 по 1 кОм: эквивалентное сопротивление 2 кОм, ток 1,5 мА, падение напряжения на каждом резисторе 1,5 В. Снизу те же резисторы соединены параллельно между двумя общими узлами: напряжение каждого 3 В, ток каждой ветви 3 мА, ток источника 6 мА, эквивалентное сопротивление 500 Ом. Узлы отмечены точками. Идеальная модель установившегося постоянного тока; только бумажный разбор.</desc>
+  <defs>
+    <marker id="current" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4 L0 8 Z" fill="#14756b"/></marker>
+    <marker id="fault" markerWidth="11" markerHeight="11" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#b43c31"/></marker>
+  </defs>
+  <rect width="1280" height="1040" fill="white"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+<text x="58" y="53" font-size="17" fill="#14756b" font-weight="700" text-anchor="start">ГЛАВА 02 · УЧЕБНАЯ ПРИНЦИПИАЛЬНАЯ СХЕМА</text>
+<text x="58" y="107" font-size="31" fill="#142d42" font-weight="700" text-anchor="start">Два резистора: один путь или две ветви?</text>
+<text x="58" y="145" font-size="19" fill="#536476" font-weight="400" text-anchor="start">В обеих схемах B1 = 3 В, R1 = R2 = 1 кОм. Способ соединения меняет общий ток.</text>
+<rect x="58" y="184" width="1164" height="333" rx="16" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+<text x="84" y="226" font-size="25" fill="#142d42" font-weight="700" text-anchor="start">Последовательно</text>
+<path d="M180 295 H360 M470 295 H555 M665 295 H745 V450 H180" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 295 V344" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M180 364 V394" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M180 414 V450" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M150 344 H210 M163 364 H197 M150 394 H210 M163 414 H197" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="129" y="348" font-size="25" fill="#14756b" font-weight="700" text-anchor="start">+</text><text x="129" y="427" font-size="25" fill="#536476" font-weight="700" text-anchor="start">−</text><text x="226" y="379" font-size="22" fill="#142d42" font-weight="700" text-anchor="start">B1</text><text x="226" y="411" font-size="22" fill="#14756b" font-weight="700" text-anchor="start">3 В</text>
+<rect x="360" y="273.0" width="110" height="44" fill="#e0f2ed" stroke="#245c82" stroke-width="4"/>
+<rect x="555" y="273.0" width="110" height="44" fill="#e0f2ed" stroke="#245c82" stroke-width="4"/>
+<text x="415" y="269" font-size="21" fill="#142d42" font-weight="700" text-anchor="middle">R1</text>
+<text x="610" y="269" font-size="21" fill="#142d42" font-weight="700" text-anchor="middle">R2</text>
+<text x="415" y="350" font-size="21" fill="#142d42" font-weight="400" text-anchor="middle">1 кОм</text>
+<text x="610" y="350" font-size="21" fill="#142d42" font-weight="400" text-anchor="middle">1 кОм</text>
+<path d="M600 421 H465" fill="none" stroke="#14756b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#current)"/>
+<text x="534" y="399" font-size="21" fill="#14756b" font-weight="700" text-anchor="middle">I = 1,5 мА</text>
+<text x="824" y="294" font-size="22" fill="#14756b" font-weight="700" text-anchor="start">I одинаков во всей цепи</text>
+<text x="824" y="338" font-size="23" fill="#142d42" font-weight="400" text-anchor="start">U_R1 = U_R2 = 1,5 В</text>
+<text x="824" y="382" font-size="23" fill="#142d42" font-weight="400" text-anchor="start">R_экв = 2 кОм</text>
+<text x="824" y="428" font-size="22" fill="#536476" font-weight="400" text-anchor="start">3 В = 1,5 В + 1,5 В</text>
+<text x="84" y="490" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Один путь: через оба резистора проходит один и тот же ток.</text>
+<rect x="58" y="542" width="1164" height="360" rx="16" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+<text x="84" y="584" font-size="25" fill="#142d42" font-weight="700" text-anchor="start">Параллельно</text>
+<path d="M180 648 H690 V697 M460 648 V697 M460 767 V830 H180 M690 767 V830 H460" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 648 V708" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M180 728 V758" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M180 778 V830" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M150 708 H210 M163 728 H197 M150 758 H210 M163 778 H197" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="129" y="712" font-size="25" fill="#14756b" font-weight="700" text-anchor="start">+</text><text x="129" y="791" font-size="25" fill="#536476" font-weight="700" text-anchor="start">−</text><text x="226" y="743" font-size="22" fill="#142d42" font-weight="700" text-anchor="start">B1</text><text x="226" y="775" font-size="22" fill="#14756b" font-weight="700" text-anchor="start">3 В</text>
+<rect x="437" y="697" width="46" height="70" fill="#e0f2ed" stroke="#245c82" stroke-width="4"/>
+<rect x="667" y="697" width="46" height="70" fill="#e0f2ed" stroke="#245c82" stroke-width="4"/>
+<text x="374" y="723" font-size="21" fill="#142d42" font-weight="700" text-anchor="start">R1</text>
+<text x="359" y="755" font-size="21" fill="#142d42" font-weight="400" text-anchor="start">1 кОм</text>
+<text x="605" y="723" font-size="21" fill="#142d42" font-weight="700" text-anchor="start">R2</text>
+<text x="590" y="755" font-size="21" fill="#142d42" font-weight="400" text-anchor="start">1 кОм</text>
+<circle cx="460" cy="648" r="5" fill="#245c82" stroke="#245c82" stroke-width="3"/>
+<circle cx="460" cy="830" r="5" fill="#245c82" stroke="#245c82" stroke-width="3"/>
+<circle cx="690" cy="648" r="5" fill="#245c82" stroke="#245c82" stroke-width="3"/>
+<circle cx="690" cy="830" r="5" fill="#245c82" stroke="#245c82" stroke-width="3"/>
+<path d="M234 624 H346" fill="none" stroke="#14756b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#current)"/>
+<text x="290" y="606" font-size="20" fill="#14756b" font-weight="700" text-anchor="middle">I_ист = 6 мА</text>
+<path d="M460 660 V685" fill="none" stroke="#14756b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#current)"/>
+<path d="M690 660 V685" fill="none" stroke="#14756b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#current)"/>
+<text x="480" y="682" font-size="18" fill="#14756b" font-weight="700" text-anchor="start">3 мА</text>
+<text x="710" y="682" font-size="18" fill="#14756b" font-weight="700" text-anchor="start">3 мА</text>
+<text x="824" y="652" font-size="23" fill="#14756b" font-weight="700" text-anchor="start">U_R1 = U_R2 = 3 В</text>
+<text x="824" y="697" font-size="22" fill="#142d42" font-weight="400" text-anchor="start">I_ист = I1 + I2 = 6 мА</text>
+<text x="824" y="742" font-size="23" fill="#142d42" font-weight="400" text-anchor="start">R_экв = 500 Ом</text>
+<text x="824" y="789" font-size="21" fill="#536476" font-weight="400" text-anchor="start">На каждой ветви — 3 В.</text>
+<text x="84" y="874" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Два пути между теми же узлами: напряжение одинаково, ток источника складывается.</text>
+<text x="58" y="947" font-size="18" fill="#536476" font-weight="400" text-anchor="start">Точки — соединения. Стрелки — условное направление тока во внешней цепи от «+» к «−».</text>
+<text x="58" y="978" font-size="18" fill="#536476" font-weight="400" text-anchor="start">R_экв — сопротивление, которым можно заменить обе нагрузки для расчёта общего тока.</text>
+<text x="58" y="1009" font-size="18" fill="#536476" font-weight="400" text-anchor="start">Принципиальные схемы: источник и провода идеальны, сопротивления постоянны. Только бумажный разбор.</text>
+  </g>
+</svg>

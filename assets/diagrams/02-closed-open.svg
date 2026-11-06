@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="930" viewBox="0 0 1280 930" role="img" aria-labelledby="title desc">
+  <title id="title">Замкнутая и разомкнутая цепь: ток через резистор и напряжения на элементах</title>
+  <desc id="desc">Две учебные принципиальные схемы с идеальным батарейным источником B1 3 В и резистором R1 1 кОм. Слева S1 замкнут: ток по внешней цепи от плюса источника к минусу равен 3 мА, напряжение на резисторе 3 В, на замкнутом выключателе 0. Справа S1 разомкнут: ток равен нулю, напряжение на резисторе 0, между контактами выключателя 3 В. Напряжение самого источника в обоих случаях 3 В. Провода идеальны, утечки отсутствуют; установившееся состояние. Это бумажная модель, а не инструкция сборки.</desc>
+  <defs>
+    <marker id="current" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4 L0 8 Z" fill="#14756b"/></marker>
+    <marker id="fault" markerWidth="11" markerHeight="11" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#b43c31"/></marker>
+  </defs>
+  <rect width="1280" height="930" fill="white"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+<text x="58" y="53" font-size="17" fill="#14756b" font-weight="700" text-anchor="start">ГЛАВА 02 · УЧЕБНАЯ ПРИНЦИПИАЛЬНАЯ СХЕМА</text>
+<text x="58" y="107" font-size="31" fill="#142d42" font-weight="700" text-anchor="start">Замкнутый путь и разрыв: что меняется?</text>
+<text x="58" y="145" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Один источник B1 = 3 В, один резистор R1 = 1 кОм и два положения выключателя S1.</text>
+<rect x="58" y="184" width="570" height="521" rx="16" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+<text x="84" y="229" font-size="25" fill="#142d42" font-weight="700" text-anchor="start">S1 замкнут</text>
+<path d="M153 308 H290" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M378 308 H484 V370" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M484 440 V520 H153" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M153 308 V370" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M153 390 V420" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M153 440 V520" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M123 370 H183 M136 390 H170 M123 420 H183 M136 440 H170" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="102" y="374" font-size="25" fill="#14756b" font-weight="700" text-anchor="start">+</text><text x="102" y="453" font-size="25" fill="#536476" font-weight="700" text-anchor="start">−</text><text x="195" y="409" font-size="22" fill="#142d42" font-weight="700" text-anchor="start">B1</text><text x="195" y="441" font-size="22" fill="#14756b" font-weight="700" text-anchor="start">3 В</text>
+<rect x="461" y="370" width="46" height="70" fill="#e0f2ed" stroke="#245c82" stroke-width="4"/><text x="520" y="397" font-size="22" fill="#142d42" font-weight="700" text-anchor="start">R1</text><text x="520" y="429" font-size="21" fill="#142d42" font-weight="400" text-anchor="start">1 кОм</text>
+<path d="M290 308 L378 308" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="290" cy="308" r="5" fill="white" stroke="#245c82" stroke-width="3"/>
+<circle cx="378" cy="308" r="5" fill="white" stroke="#245c82" stroke-width="3"/>
+<path d="M184 278 H264" fill="none" stroke="#14756b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#current)"/>
+<text x="224" y="260" font-size="20" fill="#14756b" font-weight="700" text-anchor="middle">I = 3 мА</text>
+<text x="84" y="571" font-size="21" fill="#142d42" font-weight="400" text-anchor="start">Через R1:</text>
+<text x="316" y="571" font-size="23" fill="#14756b" font-weight="700" text-anchor="start">I = 3 мА</text>
+<text x="84" y="614" font-size="21" fill="#142d42" font-weight="400" text-anchor="start">Между выводами R1:</text>
+<text x="416" y="614" font-size="22" fill="#14756b" font-weight="700" text-anchor="start">U_R = 3 В</text>
+<text x="84" y="657" font-size="21" fill="#142d42" font-weight="400" text-anchor="start">Между контактами S1:</text>
+<text x="416" y="657" font-size="22" fill="#14756b" font-weight="700" text-anchor="start">U_S = 0</text>
+<rect x="652" y="184" width="570" height="521" rx="16" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+<text x="678" y="229" font-size="25" fill="#142d42" font-weight="700" text-anchor="start">S1 разомкнут</text>
+<path d="M747 308 H884" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M972 308 H1078 V370" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1078 440 V520 H747" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M747 308 V370" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M747 390 V420" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M747 440 V520" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M717 370 H777 M730 390 H764 M717 420 H777 M730 440 H764" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="696" y="374" font-size="25" fill="#14756b" font-weight="700" text-anchor="start">+</text><text x="696" y="453" font-size="25" fill="#536476" font-weight="700" text-anchor="start">−</text><text x="789" y="409" font-size="22" fill="#142d42" font-weight="700" text-anchor="start">B1</text><text x="789" y="441" font-size="22" fill="#14756b" font-weight="700" text-anchor="start">3 В</text>
+<rect x="1055" y="370" width="46" height="70" fill="#e0f2ed" stroke="#245c82" stroke-width="4"/><text x="1114" y="397" font-size="22" fill="#142d42" font-weight="700" text-anchor="start">R1</text><text x="1114" y="429" font-size="21" fill="#142d42" font-weight="400" text-anchor="start">1 кОм</text>
+<path d="M884 308 L953 265" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="884" cy="308" r="5" fill="white" stroke="#245c82" stroke-width="3"/>
+<circle cx="972" cy="308" r="5" fill="white" stroke="#245c82" stroke-width="3"/>
+<text x="818" y="276" font-size="21" fill="#536476" font-weight="700" text-anchor="middle">I = 0</text>
+<text x="678" y="571" font-size="21" fill="#142d42" font-weight="400" text-anchor="start">Через R1:</text>
+<text x="910" y="571" font-size="23" fill="#536476" font-weight="700" text-anchor="start">I = 0</text>
+<text x="678" y="614" font-size="21" fill="#142d42" font-weight="400" text-anchor="start">Между выводами R1:</text>
+<text x="1010" y="614" font-size="22" fill="#536476" font-weight="700" text-anchor="start">U_R = 0</text>
+<text x="678" y="657" font-size="21" fill="#142d42" font-weight="400" text-anchor="start">Между контактами S1:</text>
+<text x="1010" y="657" font-size="22" fill="#14756b" font-weight="700" text-anchor="start">U_S = 3 В</text>
+<rect x="58" y="729" width="1164" height="102" rx="12" fill="#e0f2ed" stroke="#e0f2ed" stroke-width="2"/>
+<text x="82" y="768" font-size="23" fill="#11695f" font-weight="700" text-anchor="start">Напряжение задают между двумя точками. Ток проходит через элемент.</text>
+<text x="82" y="804" font-size="21" fill="#244d48" font-weight="400" text-anchor="start">При разрыве ток исчезает, но между выводами источника B1 остаются 3 В.</text>
+<text x="58" y="868" font-size="18" fill="#536476" font-weight="400" text-anchor="start">Идеальная модель: проводники и замкнутый S1 имеют нулевое сопротивление; утечек нет.</text>
+<text x="58" y="899" font-size="18" fill="#536476" font-weight="400" text-anchor="start">Установившийся постоянный ток. Только разбор на бумаге; условия сборки — в главе 04.</text>
+  </g>
+</svg>

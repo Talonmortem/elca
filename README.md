@@ -20,11 +20,12 @@
 | [PROGRESS.md](PROGRESS.md) | Следующая глава, готовность текстов, отдельно — подтверждённая практика |
 | [COURSE_DRAFT.md](COURSE_DRAFT.md) | Содержательный черновик всего курса: тезисы, задания, схемы и фотографии |
 | [chapters/01-safety.md](chapters/01-safety.md) | Безопасность: объяснения, две схемы, три реальные фотографии, практика и ответы |
+| [chapters/02-circuit-basics.md](chapters/02-circuit-basics.md) | Цепь и закон Ома: четыре SVG-иллюстрации, два новых фото, четыре упражнения и самопроверка с ответами |
 | [drafts/01-safety.md](drafts/01-safety.md) | Исходный черновик первой главы, сохранённый для истории разработки |
 | [chapters/](chapters/README.md) | Законченные главы после проверки |
 | [templates/chapter.md](templates/chapter.md) | Единый шаблон главы |
 | [references/SOURCES.md](references/SOURCES.md) | Проверенные источники и правила проверки норм |
-| [assets/PHOTO_ATLAS.md](assets/PHOTO_ATLAS.md) | Стартовый атлас: автомат, мультиметр, детали розетки |
+| [assets/PHOTO_ATLAS.md](assets/PHOTO_ATLAS.md) | Фотоатлас: автомат, мультиметр, детали розетки, держатель AA и резисторы |
 | [assets/ATTRIBUTION.md](assets/ATTRIBUTION.md) | Авторы, источники и лицензии изображений |
 | [AGENTS.md](AGENTS.md) | Инструкция для продолжения работы в новом разговоре |
 

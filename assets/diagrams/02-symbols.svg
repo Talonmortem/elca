@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="992" viewBox="0 0 1280 992" role="img" aria-labelledby="title desc">
+  <title id="title">Условные обозначения принципиальных электрических схем главы 02</title>
+  <desc id="desc">Шесть панелей: один гальванический элемент с длинной положительной и короткой отрицательной чертой; батарея из нескольких элементов; прямоугольный символ резистора; разомкнутый и замкнутый выключатель; пересечение проводников с точкой соединения; пересечение без электрического соединения, где дуговой мостик показывает проход горизонтального проводника поверх вертикального. Это легенда условных обозначений этой главы, не монтажная схема.</desc>
+  <defs>
+    <marker id="current" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4 L0 8 Z" fill="#14756b"/></marker>
+    <marker id="fault" markerWidth="11" markerHeight="11" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#b43c31"/></marker>
+  </defs>
+  <rect width="1280" height="992" fill="white"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+<text x="58" y="53" font-size="17" fill="#14756b" font-weight="700" text-anchor="start">ГЛАВА 02 · ОБОЗНАЧЕНИЯ ПРИНЦИПИАЛЬНЫХ СХЕМ</text>
+<text x="58" y="107" font-size="31" fill="#142d42" font-weight="700" text-anchor="start">Как читать условные обозначения</text>
+<text x="58" y="145" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Легенда принципиальных схем этой главы: символ показывает функцию, а не внешний вид детали.</text>
+<rect x="58" y="184" width="570" height="220" rx="16" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+<rect x="652" y="184" width="570" height="220" rx="16" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+<rect x="58" y="426" width="570" height="220" rx="16" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+<rect x="652" y="426" width="570" height="220" rx="16" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+<rect x="58" y="668" width="570" height="220" rx="16" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+<rect x="652" y="668" width="570" height="220" rx="16" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+<text x="82" y="220" font-size="23" fill="#142d42" font-weight="700" text-anchor="start">Один гальванический элемент</text>
+<path d="M208 297 H291 M291 262 V332 M327 278 V316 M327 297 H458" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="282" y="254" font-size="23" fill="#14756b" font-weight="700" text-anchor="start">+</text>
+<text x="319" y="261" font-size="23" fill="#536476" font-weight="700" text-anchor="start">−</text>
+<text x="82" y="366" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Длинная черта — «+», короткая — «−».</text>
+<text x="676" y="220" font-size="23" fill="#142d42" font-weight="700" text-anchor="start">Батарея: несколько элементов</text>
+<path d="M782 297 H854 M854 262 V332 M886 278 V316 M886 297 H954 M954 262 V332 M986 278 V316 M986 297 H1077" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="844" y="254" font-size="23" fill="#14756b" font-weight="700" text-anchor="start">+</text>
+<text x="979" y="261" font-size="23" fill="#536476" font-weight="700" text-anchor="start">−</text>
+<text x="676" y="366" font-size="19" fill="#536476" font-weight="400" text-anchor="start">B1 — обозначение источника в наших схемах.</text>
+<text x="676" y="391" font-size="18" fill="#536476" font-weight="400" text-anchor="start">Число 3 В задано отдельно от символа.</text>
+<text x="82" y="462" font-size="23" fill="#142d42" font-weight="700" text-anchor="start">Резистор R1</text>
+<path d="M200 538 H290 M400 538 H490" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="290" y="516.0" width="110" height="44" fill="#e0f2ed" stroke="#245c82" stroke-width="4"/>
+<text x="82" y="606" font-size="19" fill="#536476" font-weight="400" text-anchor="start">R1 — обозначение конкретного резистора.</text>
+<text x="82" y="633" font-size="19" fill="#536476" font-weight="400" text-anchor="start">1 кОм — его сопротивление, а не форма.</text>
+<text x="676" y="462" font-size="23" fill="#142d42" font-weight="700" text-anchor="start">Выключатель S1</text>
+<text x="796" y="500" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">Разомкнут</text>
+<text x="1070" y="500" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">Замкнут</text>
+<path d="M712 554 H757 M844 554 H890 M757 554 L826 517" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="757" cy="554" r="5" fill="white" stroke="#245c82" stroke-width="3"/>
+<circle cx="844" cy="554" r="5" fill="white" stroke="#245c82" stroke-width="3"/>
+<path d="M986 554 H1157" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1031" cy="554" r="5" fill="white" stroke="#245c82" stroke-width="3"/>
+<circle cx="1118" cy="554" r="5" fill="white" stroke="#245c82" stroke-width="3"/>
+<text x="676" y="606" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Разрыв прерывает путь.</text>
+<text x="676" y="633" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Замыкание соединяет контакты.</text>
+<text x="82" y="704" font-size="23" fill="#142d42" font-weight="700" text-anchor="start">Соединение проводников</text>
+<path d="M231 779 H451 M341 734 V823" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="341" cy="779" r="8" fill="#245c82" stroke="#245c82" stroke-width="3"/>
+<text x="82" y="851" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Точка отмечает электрическое соединение.</text>
+<text x="676" y="704" font-size="23" fill="#142d42" font-weight="700" text-anchor="start">Пересечение без соединения</text>
+<!-- Bridge: the horizontal conductor passes over the vertical one without a junction. -->
+<path d="M935 734 V823" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round"/>
+<path d="M912 779 A23 23 0 0 1 958 779" fill="none" stroke="#f7f9fb" stroke-width="12"/>
+<path d="M825 779 H912 A23 23 0 0 1 958 779 H1045" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="676" y="849" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Дуга без точки: проводники не соединены.</text>
+<text x="676" y="875" font-size="18" fill="#536476" font-weight="400" text-anchor="start">Мостик — условный знак, а не обрыв провода.</text>
+<text x="58" y="931" font-size="18" fill="#536476" font-weight="400" text-anchor="start">Линии показывают электрические связи. Расстояния и расположение деталей здесь условные.</text>
+<text x="58" y="961" font-size="18" fill="#536476" font-weight="400" text-anchor="start">Это не монтажная схема и не инструкция подключения к квартирной сети.</text>
+  </g>
+</svg>
