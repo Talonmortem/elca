@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1530" viewBox="0 0 1280 1530" role="img" aria-labelledby="title desc">
+<title id="title">Рабочая цепь и путь тока при повреждении изоляции в TN-S</title>
+<desc id="desc">Две упрощённые принципиальные схемы однофазного фрагмента TN-S с источником 230 В переменного тока 50 Гц и заземлённой нейтралью. В исправной схеме рабочий ток замыкается через L, условный автомат QF, резистивную нагрузку и N. PE соединяет корпус с нейтралью источника; у нагрузки N и PE не объединены. Во второй схеме повреждение L на корпус создаёт отдельный путь по PE к нейтрали источника и через источник обратно в L. Стрелки показывают условное направление в один полупериод. Импедансы и время отключения не рассчитаны; УЗО и другие аппараты не показаны. Схемы не предназначены для монтажа или искусственного создания повреждения.</desc>
+<defs>
+<marker id="arr-wire" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 Z" fill="#245c82"/></marker>
+<marker id="arr-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 Z" fill="#14756b"/></marker>
+<marker id="arr-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 Z" fill="#b33636"/></marker>
+<marker id="arr-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 Z" fill="#b46a19"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 Z" fill="#536476"/></marker>
+</defs>
+<rect width="1280" height="1530" fill="white"/>
+<g font-family="DejaVu Sans, Arial, sans-serif">
+<text x="48" y="50" font-size="18" fill="#14756b" font-weight="700" text-anchor="start">ГЛАВА 06 · УПРОЩЁННЫЕ ПРИНЦИПИАЛЬНЫЕ СХЕМЫ</text>
+<text x="48" y="104" font-size="33" fill="#142d42" font-weight="700" text-anchor="start">Рабочий ток и ток повреждения</text>
+<text x="48" y="145" font-size="21" fill="#536476" font-weight="400" text-anchor="start">Однофазный фрагмент TN-S: источник 230 В ~, 50 Гц; металлический корпус прибора класса I.</text>
+<rect x="48" y="186" width="1184" height="584" rx="14" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+<text x="76" y="228" font-size="26" fill="#142d42" font-weight="700" text-anchor="start">1 · Исправная изоляция</text>
+<rect x="735" y="282" width="389" height="326" rx="0" fill="white" stroke="#879aa9" stroke-width="4"/>
+<text x="931" y="313" font-size="20" fill="#536476" font-weight="400" text-anchor="middle">Металлический корпус</text>
+<path d="M735 315 V333 M735 505 V523" fill="none" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 324 V381.0 M180 457.0 V514" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="180" cy="419.0" r="38" fill="white" stroke="#245c82" stroke-width="3"/>
+<text x="180" y="429.0" font-size="36" fill="#245c82" font-weight="400" text-anchor="middle">~</text>
+<text x="180" y="277" font-size="20" fill="#536476" font-weight="400" text-anchor="middle">Источник</text>
+<text x="76" y="480" font-size="21" fill="#142d42" font-weight="700" text-anchor="start">230 В ~</text>
+<path d="M180 324 H438 M498 324 H900 V384" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="438" cy="324" r="5" fill="white" stroke="#245c82" stroke-width="3"/>
+<circle cx="498" cy="324" r="5" fill="white" stroke="#245c82" stroke-width="3"/>
+<path d="M438 324 H498" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="468" y="299" font-size="22" fill="#142d42" font-weight="700" text-anchor="middle">QF</text>
+<text x="468" y="363" font-size="17" fill="#536476" font-weight="400" text-anchor="middle">условный автомат</text>
+<rect x="880" y="384" width="40" height="90" rx="0" fill="#e0f2ed" stroke="#245c82" stroke-width="3"/>
+<text x="851" y="420" font-size="23" fill="#142d42" font-weight="700" text-anchor="end">R</text>
+<text x="851" y="455" font-size="19" fill="#536476" font-weight="400" text-anchor="end">нагрузка</text>
+<path d="M900 474 V514 H180" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 514 V608" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 608 v20 M155 628 h50 M163 639 h34 M172 650 h16" fill="none" stroke="#245c82" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 568 H735" fill="none" stroke="#14756b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 568 H735" fill="none" stroke="#f0c54a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 8"/>
+<circle cx="180" cy="514" r="6" fill="#245c82" stroke="none" stroke-width="3"/>
+<circle cx="180" cy="568" r="6" fill="#245c82" stroke="none" stroke-width="3"/>
+<circle cx="735" cy="568" r="7" fill="#14756b" stroke="none" stroke-width="3"/>
+<text x="590" y="310" font-size="23" fill="#142d42" font-weight="700" text-anchor="start">L</text>
+<text x="590" y="500" font-size="23" fill="#245c82" font-weight="700" text-anchor="start">N</text>
+<text x="590" y="554" font-size="23" fill="#14756b" font-weight="700" text-anchor="start">PE</text>
+<text x="240" y="631" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Заземлённая нейтраль источника</text>
+<text x="240" y="662" font-size="18" fill="#536476" font-weight="400" text-anchor="start">Здесь N и PE связаны; у нагрузки — раздельны.</text>
+<path d="M530 280 H655" fill="none" stroke="#b46a19" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-amber)"/>
+<path d="M655 472 H530" fill="none" stroke="#b46a19" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-amber)"/>
+<path d="M144 450.0 V388.0" fill="none" stroke="#b46a19" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-amber)"/>
+<text x="76" y="720" font-size="21" fill="#142d42" font-weight="700" text-anchor="start">L → нагрузка → N → источник → L. PE не служит рабочим обратным проводом.</text>
+<text x="76" y="753" font-size="20" fill="#536476" font-weight="400" text-anchor="start">В этой модели малыми токами утечки и сопротивлением проводников пренебрегаем.</text>
+<rect x="48" y="798" width="1184" height="584" rx="14" fill="#fff8f7" stroke="#dce5ed" stroke-width="2"/>
+<text x="76" y="840" font-size="26" fill="#b33636" font-weight="700" text-anchor="start">2 · Повреждение L на корпус</text>
+<rect x="735" y="894" width="389" height="326" rx="0" fill="white" stroke="#879aa9" stroke-width="4"/>
+<text x="931" y="925" font-size="20" fill="#536476" font-weight="400" text-anchor="middle">Металлический корпус</text>
+<path d="M735 927 V945 M735 1117 V1135" fill="none" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 936 V993.0 M180 1069.0 V1126" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="180" cy="1031.0" r="38" fill="white" stroke="#245c82" stroke-width="3"/>
+<text x="180" y="1041.0" font-size="36" fill="#245c82" font-weight="400" text-anchor="middle">~</text>
+<text x="180" y="889" font-size="20" fill="#536476" font-weight="400" text-anchor="middle">Источник</text>
+<text x="76" y="1092" font-size="21" fill="#142d42" font-weight="700" text-anchor="start">230 В ~</text>
+<path d="M180 936 H438 M498 936 H900 V996" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="438" cy="936" r="5" fill="white" stroke="#245c82" stroke-width="3"/>
+<circle cx="498" cy="936" r="5" fill="white" stroke="#245c82" stroke-width="3"/>
+<path d="M438 936 H498" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="468" y="911" font-size="22" fill="#142d42" font-weight="700" text-anchor="middle">QF</text>
+<text x="468" y="975" font-size="17" fill="#536476" font-weight="400" text-anchor="middle">условный автомат</text>
+<rect x="880" y="996" width="40" height="90" rx="0" fill="#e0f2ed" stroke="#245c82" stroke-width="3"/>
+<text x="851" y="1032" font-size="23" fill="#142d42" font-weight="700" text-anchor="end">R</text>
+<text x="851" y="1067" font-size="19" fill="#536476" font-weight="400" text-anchor="end">нагрузка</text>
+<path d="M900 1086 V1126 H180" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 1126 V1220" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 1220 v20 M155 1240 h50 M163 1251 h34 M172 1262 h16" fill="none" stroke="#245c82" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 1180 H735" fill="none" stroke="#14756b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 1180 H735" fill="none" stroke="#f0c54a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 8"/>
+<circle cx="180" cy="1126" r="6" fill="#245c82" stroke="none" stroke-width="3"/>
+<circle cx="180" cy="1180" r="6" fill="#245c82" stroke="none" stroke-width="3"/>
+<circle cx="735" cy="1180" r="7" fill="#14756b" stroke="none" stroke-width="3"/>
+<text x="590" y="922" font-size="23" fill="#142d42" font-weight="700" text-anchor="start">L</text>
+<text x="590" y="1112" font-size="23" fill="#245c82" font-weight="700" text-anchor="start">N</text>
+<text x="590" y="1166" font-size="23" fill="#14756b" font-weight="700" text-anchor="start">PE</text>
+<text x="240" y="1243" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Заземлённая нейтраль источника</text>
+<text x="240" y="1274" font-size="18" fill="#536476" font-weight="400" text-anchor="start">Здесь N и PE связаны; у нагрузки — раздельны.</text>
+<path d="M900 936 H1040 V1044 H1060" fill="none" stroke="#b33636" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1060 1044 l10 -10 l12 20 l12 -20 l12 20 l12 -10 H1124" fill="none" stroke="#b33636" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="900" cy="936" r="6" fill="#b33636" stroke="none" stroke-width="3"/>
+<circle cx="1124" cy="1044" r="7" fill="#b33636" stroke="none" stroke-width="3"/>
+<text x="1038" y="1077" font-size="18" fill="#b33636" font-weight="700" text-anchor="middle">пробой</text>
+<text x="1038" y="1102" font-size="18" fill="#b33636" font-weight="700" text-anchor="middle">изоляции</text>
+<path d="M1124 1044 V1220 H735 V1180 H180 V1126" fill="none" stroke="#b33636" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 7"/>
+<path d="M530 892 H655" fill="none" stroke="#b33636" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-red)"/>
+<path d="M580 1200 H455" fill="none" stroke="#b33636" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-red)"/>
+<path d="M144 1062.0 V1000.0" fill="none" stroke="#b33636" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-red)"/>
+<text x="76" y="1332" font-size="21" fill="#b33636" font-weight="700" text-anchor="start">L → повреждение → корпус → PE → нейтраль источника → источник → L</text>
+<text x="76" y="1365" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Отключение зависит от тока, полного сопротивления петли и выбранной защиты.</text>
+<text x="48" y="1426" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Стрелки — условное направление тока в один полупериод; через полпериода оно меняется.</text>
+<text x="48" y="1463" font-size="20" fill="#536476" font-weight="400" text-anchor="start">УЗО и другие аппараты опущены. Номинал нагрузки, защита и время отключения не рассчитаны.</text>
+<text x="48" y="1500" font-size="23" fill="#142d42" font-weight="700" text-anchor="start">Это учебные схемы, а не инструкция монтажа или проверки замыканием.</text>
+</g>
+</svg>

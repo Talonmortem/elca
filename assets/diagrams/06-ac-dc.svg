@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1190" viewBox="0 0 1280 1190" role="img" aria-labelledby="title desc">
+<title id="title">Постоянное и переменное напряжение: значение, форма и время</title>
+<desc id="desc">Два графика с разными вертикальными шкалами. Вверху идеализированное постоянное напряжение 3 В. Внизу идеальная синусоида напряжения L–N с частотой 50 Гц, периодом 20 мс и действующим значением 230 В. Амплитуда равна 230 умножить на квадратный корень из двух, примерно 325 В. Горизонтальная пунктирная линия 230 В — только ориентир действующего значения; это не второй сигнал. Показаны два периода за 40 мс.</desc>
+<defs>
+<marker id="arr-wire" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 Z" fill="#245c82"/></marker>
+<marker id="arr-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 Z" fill="#14756b"/></marker>
+<marker id="arr-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 Z" fill="#b33636"/></marker>
+<marker id="arr-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 Z" fill="#b46a19"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 Z" fill="#536476"/></marker>
+</defs>
+<rect width="1280" height="1190" fill="white"/>
+<g font-family="DejaVu Sans, Arial, sans-serif">
+<text x="48" y="50" font-size="18" fill="#14756b" font-weight="700" text-anchor="start">ГЛАВА 06 · ГРАФИКИ УЧЕБНЫХ МОДЕЛЕЙ</text>
+<text x="48" y="104" font-size="33" fill="#142d42" font-weight="700" text-anchor="start">AC и DC: что меняется со временем</text>
+<text x="48" y="145" font-size="21" fill="#536476" font-weight="400" text-anchor="start">u(t) — мгновенное напряжение. Величина и знак относятся к выбранной паре точек.</text>
+<rect x="48" y="187" width="1184" height="299" rx="14" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+<text x="76" y="228" font-size="26" fill="#142d42" font-weight="700" text-anchor="start">DC: постоянное напряжение батарейной модели</text>
+<text x="76" y="263" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Полярность и значение здесь не меняются. Шкала: 0–4 В.</text>
+<path d="M170 411 V287 M170 411 H1157" fill="none" stroke="#536476" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-muted)"/>
+<text x="1188" y="393" font-size="19" fill="#536476" font-weight="400" text-anchor="end">t, мс</text>
+<text x="126" y="303" font-size="19" fill="#536476" font-weight="400" text-anchor="end">u, В</text>
+<path d="M162 411 H178" fill="none" stroke="#536476" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="150" y="417" font-size="20" fill="#536476" font-weight="400" text-anchor="end">0</text>
+<path d="M162 330 H178" fill="none" stroke="#536476" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="150" y="336" font-size="20" fill="#536476" font-weight="400" text-anchor="end">3</text>
+<path d="M162 303 H178" fill="none" stroke="#536476" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="150" y="309" font-size="20" fill="#536476" font-weight="400" text-anchor="end">4</text>
+<path d="M170.0 405 V417" fill="none" stroke="#536476" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="170.0" y="445" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">0</text>
+<path d="M410.0 405 V417" fill="none" stroke="#536476" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="410.0" y="445" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">10</text>
+<path d="M650.0 405 V417" fill="none" stroke="#536476" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="650.0" y="445" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">20</text>
+<path d="M890.0 405 V417" fill="none" stroke="#536476" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="890.0" y="445" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">30</text>
+<path d="M1130.0 405 V417" fill="none" stroke="#536476" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1130.0" y="445" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">40</text>
+<path d="M170 330 H1130" fill="none" stroke="#14756b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1090" y="313" font-size="23" fill="#14756b" font-weight="700" text-anchor="end">3 В</text>
+<rect x="48" y="516" width="1184" height="526" rx="14" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+<text x="76" y="558" font-size="26" fill="#142d42" font-weight="700" text-anchor="start">AC: идеальная синусоида напряжения L–N</text>
+<text x="76" y="592" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Действующее значение 230 В; частота 50 Гц. Шкала: от −325 до +325 В.</text>
+<path d="M170 952 V624 M170 796 H1157" fill="none" stroke="#536476" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-muted)"/>
+<text x="126" y="642" font-size="19" fill="#536476" font-weight="400" text-anchor="end">u, В</text>
+<text x="1210" y="778" font-size="19" fill="#536476" font-weight="400" text-anchor="end">t, мс</text>
+<path d="M162 944.0 H178" fill="none" stroke="#536476" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="151" y="951.0" font-size="19" fill="#536476" font-weight="400" text-anchor="end">-325</text>
+<path d="M162 796.0 H178" fill="none" stroke="#536476" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="151" y="803.0" font-size="19" fill="#536476" font-weight="400" text-anchor="end">0</text>
+<path d="M162 648.0 H178" fill="none" stroke="#536476" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="151" y="655.0" font-size="19" fill="#536476" font-weight="400" text-anchor="end">+325</text>
+<path d="M170.0 791 V801" fill="none" stroke="#536476" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="170.0" y="825" font-size="17" fill="#536476" font-weight="400" text-anchor="middle">0</text>
+<path d="M290.0 791 V801" fill="none" stroke="#536476" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="290.0" y="825" font-size="17" fill="#536476" font-weight="400" text-anchor="middle">5</text>
+<path d="M410.0 791 V801" fill="none" stroke="#536476" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="410.0" y="825" font-size="17" fill="#536476" font-weight="400" text-anchor="middle">10</text>
+<path d="M530.0 791 V801" fill="none" stroke="#536476" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="530.0" y="825" font-size="17" fill="#536476" font-weight="400" text-anchor="middle">15</text>
+<path d="M650.0 791 V801" fill="none" stroke="#536476" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="650.0" y="825" font-size="17" fill="#536476" font-weight="400" text-anchor="middle">20</text>
+<path d="M770.0 791 V801" fill="none" stroke="#536476" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="770.0" y="825" font-size="17" fill="#536476" font-weight="400" text-anchor="middle">25</text>
+<path d="M890.0 791 V801" fill="none" stroke="#536476" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="890.0" y="825" font-size="17" fill="#536476" font-weight="400" text-anchor="middle">30</text>
+<path d="M1010.0 791 V801" fill="none" stroke="#536476" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1010.0" y="825" font-size="17" fill="#536476" font-weight="400" text-anchor="middle">35</text>
+<path d="M1130.0 791 V801" fill="none" stroke="#536476" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1130.0" y="825" font-size="17" fill="#536476" font-weight="400" text-anchor="middle">40</text>
+<path d="M170 691.26 H1130" fill="none" stroke="#b46a19" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 8"/>
+<text x="1115" y="673" font-size="20" fill="#b46a19" font-weight="700" text-anchor="end">230 В — ориентир RMS</text>
+<path d="M170.00 796.00 L172.40 791.35 L174.80 786.71 L177.20 782.07 L179.60 777.45 L182.00 772.85 L184.40 768.27 L186.80 763.71 L189.20 759.19 L191.60 754.71 L194.00 750.27 L196.40 745.87 L198.80 741.52 L201.20 737.22 L203.60 732.98 L206.00 728.81 L208.40 724.70 L210.80 720.66 L213.20 716.70 L215.60 712.81 L218.00 709.01 L220.40 705.29 L222.80 701.66 L225.20 698.13 L227.60 694.69 L230.00 691.35 L232.40 688.11 L234.80 684.98 L237.20 681.96 L239.60 679.06 L242.00 676.27 L244.40 673.59 L246.80 671.04 L249.20 668.61 L251.60 666.31 L254.00 664.13 L256.40 662.09 L258.80 660.17 L261.20 658.39 L263.60 656.75 L266.00 655.24 L268.40 653.88 L270.80 652.65 L273.20 651.56 L275.60 650.62 L278.00 649.82 L280.40 649.17 L282.80 648.66 L285.20 648.29 L287.60 648.07 L290.00 648.00 L292.40 648.07 L294.80 648.29 L297.20 648.66 L299.60 649.17 L302.00 649.82 L304.40 650.62 L306.80 651.56 L309.20 652.65 L311.60 653.88 L314.00 655.24 L316.40 656.75 L318.80 658.39 L321.20 660.17 L323.60 662.09 L326.00 664.13 L328.40 666.31 L330.80 668.61 L333.20 671.04 L335.60 673.59 L338.00 676.27 L340.40 679.06 L342.80 681.96 L345.20 684.98 L347.60 688.11 L350.00 691.35 L352.40 694.69 L354.80 698.13 L357.20 701.66 L359.60 705.29 L362.00 709.01 L364.40 712.81 L366.80 716.70 L369.20 720.66 L371.60 724.70 L374.00 728.81 L376.40 732.98 L378.80 737.22 L381.20 741.52 L383.60 745.87 L386.00 750.27 L388.40 754.71 L390.80 759.19 L393.20 763.71 L395.60 768.27 L398.00 772.85 L400.40 777.45 L402.80 782.07 L405.20 786.71 L407.60 791.35 L410.00 796.00 L412.40 800.65 L414.80 805.29 L417.20 809.93 L419.60 814.55 L422.00 819.15 L424.40 823.73 L426.80 828.29 L429.20 832.81 L431.60 837.29 L434.00 841.73 L436.40 846.13 L438.80 850.48 L441.20 854.78 L443.60 859.02 L446.00 863.19 L448.40 867.30 L450.80 871.34 L453.20 875.30 L455.60 879.19 L458.00 882.99 L460.40 886.71 L462.80 890.34 L465.20 893.87 L467.60 897.31 L470.00 900.65 L472.40 903.89 L474.80 907.02 L477.20 910.04 L479.60 912.94 L482.00 915.73 L484.40 918.41 L486.80 920.96 L489.20 923.39 L491.60 925.69 L494.00 927.87 L496.40 929.91 L498.80 931.83 L501.20 933.61 L503.60 935.25 L506.00 936.76 L508.40 938.12 L510.80 939.35 L513.20 940.44 L515.60 941.38 L518.00 942.18 L520.40 942.83 L522.80 943.34 L525.20 943.71 L527.60 943.93 L530.00 944.00 L532.40 943.93 L534.80 943.71 L537.20 943.34 L539.60 942.83 L542.00 942.18 L544.40 941.38 L546.80 940.44 L549.20 939.35 L551.60 938.12 L554.00 936.76 L556.40 935.25 L558.80 933.61 L561.20 931.83 L563.60 929.91 L566.00 927.87 L568.40 925.69 L570.80 923.39 L573.20 920.96 L575.60 918.41 L578.00 915.73 L580.40 912.94 L582.80 910.04 L585.20 907.02 L587.60 903.89 L590.00 900.65 L592.40 897.31 L594.80 893.87 L597.20 890.34 L599.60 886.71 L602.00 882.99 L604.40 879.19 L606.80 875.30 L609.20 871.34 L611.60 867.30 L614.00 863.19 L616.40 859.02 L618.80 854.78 L621.20 850.48 L623.60 846.13 L626.00 841.73 L628.40 837.29 L630.80 832.81 L633.20 828.29 L635.60 823.73 L638.00 819.15 L640.40 814.55 L642.80 809.93 L645.20 805.29 L647.60 800.65 L650.00 796.00 L652.40 791.35 L654.80 786.71 L657.20 782.07 L659.60 777.45 L662.00 772.85 L664.40 768.27 L666.80 763.71 L669.20 759.19 L671.60 754.71 L674.00 750.27 L676.40 745.87 L678.80 741.52 L681.20 737.22 L683.60 732.98 L686.00 728.81 L688.40 724.70 L690.80 720.66 L693.20 716.70 L695.60 712.81 L698.00 709.01 L700.40 705.29 L702.80 701.66 L705.20 698.13 L707.60 694.69 L710.00 691.35 L712.40 688.11 L714.80 684.98 L717.20 681.96 L719.60 679.06 L722.00 676.27 L724.40 673.59 L726.80 671.04 L729.20 668.61 L731.60 666.31 L734.00 664.13 L736.40 662.09 L738.80 660.17 L741.20 658.39 L743.60 656.75 L746.00 655.24 L748.40 653.88 L750.80 652.65 L753.20 651.56 L755.60 650.62 L758.00 649.82 L760.40 649.17 L762.80 648.66 L765.20 648.29 L767.60 648.07 L770.00 648.00 L772.40 648.07 L774.80 648.29 L777.20 648.66 L779.60 649.17 L782.00 649.82 L784.40 650.62 L786.80 651.56 L789.20 652.65 L791.60 653.88 L794.00 655.24 L796.40 656.75 L798.80 658.39 L801.20 660.17 L803.60 662.09 L806.00 664.13 L808.40 666.31 L810.80 668.61 L813.20 671.04 L815.60 673.59 L818.00 676.27 L820.40 679.06 L822.80 681.96 L825.20 684.98 L827.60 688.11 L830.00 691.35 L832.40 694.69 L834.80 698.13 L837.20 701.66 L839.60 705.29 L842.00 709.01 L844.40 712.81 L846.80 716.70 L849.20 720.66 L851.60 724.70 L854.00 728.81 L856.40 732.98 L858.80 737.22 L861.20 741.52 L863.60 745.87 L866.00 750.27 L868.40 754.71 L870.80 759.19 L873.20 763.71 L875.60 768.27 L878.00 772.85 L880.40 777.45 L882.80 782.07 L885.20 786.71 L887.60 791.35 L890.00 796.00 L892.40 800.65 L894.80 805.29 L897.20 809.93 L899.60 814.55 L902.00 819.15 L904.40 823.73 L906.80 828.29 L909.20 832.81 L911.60 837.29 L914.00 841.73 L916.40 846.13 L918.80 850.48 L921.20 854.78 L923.60 859.02 L926.00 863.19 L928.40 867.30 L930.80 871.34 L933.20 875.30 L935.60 879.19 L938.00 882.99 L940.40 886.71 L942.80 890.34 L945.20 893.87 L947.60 897.31 L950.00 900.65 L952.40 903.89 L954.80 907.02 L957.20 910.04 L959.60 912.94 L962.00 915.73 L964.40 918.41 L966.80 920.96 L969.20 923.39 L971.60 925.69 L974.00 927.87 L976.40 929.91 L978.80 931.83 L981.20 933.61 L983.60 935.25 L986.00 936.76 L988.40 938.12 L990.80 939.35 L993.20 940.44 L995.60 941.38 L998.00 942.18 L1000.40 942.83 L1002.80 943.34 L1005.20 943.71 L1007.60 943.93 L1010.00 944.00 L1012.40 943.93 L1014.80 943.71 L1017.20 943.34 L1019.60 942.83 L1022.00 942.18 L1024.40 941.38 L1026.80 940.44 L1029.20 939.35 L1031.60 938.12 L1034.00 936.76 L1036.40 935.25 L1038.80 933.61 L1041.20 931.83 L1043.60 929.91 L1046.00 927.87 L1048.40 925.69 L1050.80 923.39 L1053.20 920.96 L1055.60 918.41 L1058.00 915.73 L1060.40 912.94 L1062.80 910.04 L1065.20 907.02 L1067.60 903.89 L1070.00 900.65 L1072.40 897.31 L1074.80 893.87 L1077.20 890.34 L1079.60 886.71 L1082.00 882.99 L1084.40 879.19 L1086.80 875.30 L1089.20 871.34 L1091.60 867.30 L1094.00 863.19 L1096.40 859.02 L1098.80 854.78 L1101.20 850.48 L1103.60 846.13 L1106.00 841.73 L1108.40 837.29 L1110.80 832.81 L1113.20 828.29 L1115.60 823.73 L1118.00 819.15 L1120.40 814.55 L1122.80 809.93 L1125.20 805.29 L1127.60 800.65 L1130.00 796.00" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M170 975 H650" fill="none" stroke="#14756b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-green)" marker-start="url(#arr-green)"/>
+<path d="M170 961 V990 M650 961 V990" fill="none" stroke="#14756b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="410" y="1019" font-size="21" fill="#14756b" font-weight="700" text-anchor="middle">T = 20 мс = 0,02 с; f = 1/T = 50 Гц</text>
+<text x="48" y="1091" font-size="23" fill="#142d42" font-weight="700" text-anchor="start">Знак меняется через каждые 10 мс; полный рисунок повторяется через 20 мс.</text>
+<text x="48" y="1128" font-size="21" fill="#536476" font-weight="400" text-anchor="start">Для этой синусоиды: Uпик = 230 × √2 ≈ 325 В. Среднее u за период равно нулю.</text>
+<text x="48" y="1163" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Пунктир RMS не изображает постоянный сигнал. Реальное сетевое напряжение может быть искажено.</text>
+</g>
+</svg>

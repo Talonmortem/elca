@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="2540" viewBox="0 0 1280 2540" role="img" aria-labelledby="title desc">
+<title id="title">Чем отличаются TN-C, TN-S, TN-C-S и TT</title>
+<desc id="desc">Четыре функциональные схемы однофазных фрагментов систем с источником 230 В переменного тока 50 Гц и заземлённой нейтралью. В TN-C рабочая и защитная функции объединены в PEN. В TN-S N и PE раздельны от источника. В TN-C-S PEN разделяется в одной проектной точке на N и PE; после неё повторное объединение не показано и недопустимо. В TT N подключён к нагрузке, а корпус отдельным PE соединён с местным заземлителем. Возврат через грунт имеет конечное сопротивление и не изображён металлической перемычкой. Остальные фазы и аппараты защиты опущены; схема не задаёт выбор или переделку квартирной установки.</desc>
+<defs>
+<marker id="arr-wire" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 Z" fill="#245c82"/></marker>
+<marker id="arr-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 Z" fill="#14756b"/></marker>
+<marker id="arr-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 Z" fill="#b33636"/></marker>
+<marker id="arr-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 Z" fill="#b46a19"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 Z" fill="#536476"/></marker>
+</defs>
+<rect width="1280" height="2540" fill="white"/>
+<g font-family="DejaVu Sans, Arial, sans-serif">
+<text x="48" y="50" font-size="18" fill="#14756b" font-weight="700" text-anchor="start">ГЛАВА 06 · ФУНКЦИОНАЛЬНЫЕ СХЕМЫ</text>
+<text x="48" y="104" font-size="33" fill="#142d42" font-weight="700" text-anchor="start">Системы заземления: различие связей</text>
+<text x="48" y="145" font-size="21" fill="#536476" font-weight="400" text-anchor="start">Показаны однофазные фрагменты: источник 230 В ~, 50 Гц. Остальные фазы и аппараты опущены.</text>
+<rect x="48" y="186" width="1184" height="512" rx="14" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+<text x="76" y="228" font-size="29" fill="#14756b" font-weight="700" text-anchor="start">TN-C</text>
+<text x="269" y="228" font-size="23" fill="#142d42" font-weight="700" text-anchor="start">Функции объединены в PEN</text>
+<rect x="891" y="274" width="290" height="275" rx="0" fill="white" stroke="#879aa9" stroke-width="4"/>
+<text x="1036" y="302" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">Корпус</text>
+<path d="M891 308 V324 M891 448 V464" fill="none" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 316 V356.0 M180 416.0 V456" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="180" cy="386.0" r="30" fill="white" stroke="#245c82" stroke-width="3"/>
+<text x="180" y="396.0" font-size="36" fill="#245c82" font-weight="400" text-anchor="middle">~</text>
+<text x="84" y="372.0" font-size="19" fill="#536476" font-weight="400" text-anchor="start">230 В</text>
+<text x="84" y="403.0" font-size="18" fill="#536476" font-weight="400" text-anchor="start">50 Гц</text>
+<path d="M180 316 H1035 V350" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1017" y="350" width="36" height="65" rx="0" fill="#e0f2ed" stroke="#245c82" stroke-width="3"/>
+<text x="998" y="386" font-size="17" fill="#536476" font-weight="400" text-anchor="end">нагрузка</text>
+<path d="M1035 415 V456" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="510" y="302" font-size="23" fill="#142d42" font-weight="700" text-anchor="start">L</text>
+<path d="M180 456 V535" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 535 v20 M155 555 h50 M163 566 h34 M172 577 h16" fill="none" stroke="#245c82" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="180" cy="456" r="6" fill="#245c82" stroke="none" stroke-width="3"/>
+<path d="M180 456 H1035" fill="none" stroke="#245c82" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 456 H790" fill="none" stroke="#14756b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 456 H790" fill="none" stroke="#f0c54a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 8"/>
+<path d="M790 456 V508 H891" fill="none" stroke="#14756b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="790" cy="456" r="6" fill="#14756b" stroke="none" stroke-width="3"/>
+<circle cx="891" cy="508" r="6" fill="#14756b" stroke="none" stroke-width="3"/>
+<text x="510" y="441" font-size="23" fill="#14756b" font-weight="700" text-anchor="start">PEN</text>
+<text x="510" y="486" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">Общая рабочая и защитная функция</text>
+<text x="210" y="592" font-size="18" fill="#536476" font-weight="400" text-anchor="start">Заземление нейтрали источника</text>
+<text x="76" y="639" font-size="21" fill="#142d42" font-weight="700" text-anchor="start">PEN одновременно участвует в питании и защите; отдельного PE на этом участке нет.</text>
+<text x="76" y="675" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Это обозначение системы, не разрешение делать перемычку между N и корпусом в розетке.</text>
+<rect x="48" y="724" width="1184" height="512" rx="14" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+<text x="76" y="766" font-size="29" fill="#14756b" font-weight="700" text-anchor="start">TN-S</text>
+<text x="269" y="766" font-size="23" fill="#142d42" font-weight="700" text-anchor="start">N и PE раздельны от источника</text>
+<rect x="891" y="812" width="290" height="275" rx="0" fill="white" stroke="#879aa9" stroke-width="4"/>
+<text x="1036" y="840" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">Корпус</text>
+<path d="M891 846 V862 M891 986 V1002" fill="none" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 854 V894.0 M180 954.0 V994" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="180" cy="924.0" r="30" fill="white" stroke="#245c82" stroke-width="3"/>
+<text x="180" y="934.0" font-size="36" fill="#245c82" font-weight="400" text-anchor="middle">~</text>
+<text x="84" y="910.0" font-size="19" fill="#536476" font-weight="400" text-anchor="start">230 В</text>
+<text x="84" y="941.0" font-size="18" fill="#536476" font-weight="400" text-anchor="start">50 Гц</text>
+<path d="M180 854 H1035 V888" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1017" y="888" width="36" height="65" rx="0" fill="#e0f2ed" stroke="#245c82" stroke-width="3"/>
+<text x="998" y="924" font-size="17" fill="#536476" font-weight="400" text-anchor="end">нагрузка</text>
+<path d="M1035 953 V994" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="510" y="840" font-size="23" fill="#142d42" font-weight="700" text-anchor="start">L</text>
+<path d="M180 994 V1073" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 1073 v20 M155 1093 h50 M163 1104 h34 M172 1115 h16" fill="none" stroke="#245c82" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="180" cy="994" r="6" fill="#245c82" stroke="none" stroke-width="3"/>
+<path d="M180 994 H1035" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 1046 H891" fill="none" stroke="#14756b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 1046 H891" fill="none" stroke="#f0c54a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 8"/>
+<circle cx="180" cy="1046" r="6" fill="#245c82" stroke="none" stroke-width="3"/>
+<circle cx="891" cy="1046" r="6" fill="#14756b" stroke="none" stroke-width="3"/>
+<text x="510" y="979" font-size="23" fill="#245c82" font-weight="700" text-anchor="start">N</text>
+<text x="510" y="1032" font-size="23" fill="#14756b" font-weight="700" text-anchor="start">PE</text>
+<text x="210" y="1130" font-size="18" fill="#536476" font-weight="400" text-anchor="start">Заземление нейтрали источника</text>
+<text x="76" y="1177" font-size="21" fill="#142d42" font-weight="700" text-anchor="start">N возвращает рабочий ток. PE связывает корпус с заземлённой нейтралью источника.</text>
+<text x="76" y="1213" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Связь N–PE находится у источника; дополнительной перемычки у нагрузки нет.</text>
+<rect x="48" y="1262" width="1184" height="512" rx="14" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+<text x="76" y="1304" font-size="29" fill="#14756b" font-weight="700" text-anchor="start">TN-C-S</text>
+<text x="269" y="1304" font-size="23" fill="#142d42" font-weight="700" text-anchor="start">Сначала PEN, затем отдельные N и PE</text>
+<rect x="891" y="1350" width="290" height="275" rx="0" fill="white" stroke="#879aa9" stroke-width="4"/>
+<text x="1036" y="1378" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">Корпус</text>
+<path d="M891 1384 V1400 M891 1524 V1540" fill="none" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 1392 V1432.0 M180 1492.0 V1532" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="180" cy="1462.0" r="30" fill="white" stroke="#245c82" stroke-width="3"/>
+<text x="180" y="1472.0" font-size="36" fill="#245c82" font-weight="400" text-anchor="middle">~</text>
+<text x="84" y="1448.0" font-size="19" fill="#536476" font-weight="400" text-anchor="start">230 В</text>
+<text x="84" y="1479.0" font-size="18" fill="#536476" font-weight="400" text-anchor="start">50 Гц</text>
+<path d="M180 1392 H1035 V1426" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1017" y="1426" width="36" height="65" rx="0" fill="#e0f2ed" stroke="#245c82" stroke-width="3"/>
+<text x="998" y="1462" font-size="17" fill="#536476" font-weight="400" text-anchor="end">нагрузка</text>
+<path d="M1035 1491 V1532" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="510" y="1378" font-size="23" fill="#142d42" font-weight="700" text-anchor="start">L</text>
+<path d="M180 1532 V1611" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 1611 v20 M155 1631 h50 M163 1642 h34 M172 1653 h16" fill="none" stroke="#245c82" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="180" cy="1532" r="6" fill="#245c82" stroke="none" stroke-width="3"/>
+<rect x="571" y="1470" width="99" height="144" rx="8" fill="#edf8f5" stroke="#b9dcd2" stroke-width="2" stroke-dasharray="6 6"/>
+<path d="M180 1532 H620" fill="none" stroke="#14756b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 1532 H620" fill="none" stroke="#f0c54a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 8"/>
+<path d="M620 1532 H1035" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M620 1532 V1584 H891" fill="none" stroke="#14756b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M620 1532 V1584 H891" fill="none" stroke="#f0c54a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 8"/>
+<circle cx="620" cy="1532" r="7" fill="#14756b" stroke="none" stroke-width="3"/>
+<circle cx="891" cy="1584" r="6" fill="#14756b" stroke="none" stroke-width="3"/>
+<text x="400" y="1517" font-size="23" fill="#14756b" font-weight="700" text-anchor="start">PEN</text>
+<text x="790" y="1517" font-size="23" fill="#245c82" font-weight="700" text-anchor="start">N</text>
+<text x="790" y="1570" font-size="23" fill="#14756b" font-weight="700" text-anchor="start">PE</text>
+<text x="620" y="1453" font-size="19" fill="#14756b" font-weight="700" text-anchor="middle">Проектная точка разделения PEN</text>
+<text x="210" y="1668" font-size="18" fill="#536476" font-weight="400" text-anchor="start">Заземление нейтрали источника</text>
+<text x="76" y="1715" font-size="21" fill="#142d42" font-weight="700" text-anchor="start">После проектного разделения N и PE ведут отдельно и снова не объединяют.</text>
+<text x="76" y="1751" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Точка разделения и требования к PEN задаются проектом; такая схема не описывает переделку розетки.</text>
+<rect x="48" y="1800" width="1184" height="512" rx="14" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2"/>
+<text x="76" y="1842" font-size="29" fill="#14756b" font-weight="700" text-anchor="start">TT</text>
+<text x="269" y="1842" font-size="23" fill="#142d42" font-weight="700" text-anchor="start">Корпус связан с местным заземлителем</text>
+<rect x="891" y="1888" width="290" height="275" rx="0" fill="white" stroke="#879aa9" stroke-width="4"/>
+<text x="1036" y="1916" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">Корпус</text>
+<path d="M891 1922 V1938 M891 2062 V2078" fill="none" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 1930 V1970.0 M180 2030.0 V2070" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="180" cy="2000.0" r="30" fill="white" stroke="#245c82" stroke-width="3"/>
+<text x="180" y="2010.0" font-size="36" fill="#245c82" font-weight="400" text-anchor="middle">~</text>
+<text x="84" y="1986.0" font-size="19" fill="#536476" font-weight="400" text-anchor="start">230 В</text>
+<text x="84" y="2017.0" font-size="18" fill="#536476" font-weight="400" text-anchor="start">50 Гц</text>
+<path d="M180 1930 H1035 V1964" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1017" y="1964" width="36" height="65" rx="0" fill="#e0f2ed" stroke="#245c82" stroke-width="3"/>
+<text x="998" y="2000" font-size="17" fill="#536476" font-weight="400" text-anchor="end">нагрузка</text>
+<path d="M1035 2029 V2070" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="510" y="1916" font-size="23" fill="#142d42" font-weight="700" text-anchor="start">L</text>
+<path d="M180 2070 V2149" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 2149 v20 M155 2169 h50 M163 2180 h34 M172 2191 h16" fill="none" stroke="#245c82" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="180" cy="2070" r="6" fill="#245c82" stroke="none" stroke-width="3"/>
+<path d="M180 2070 H1035" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M891 2122 H765 V2149" fill="none" stroke="#14756b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M891 2122 H765 V2149" fill="none" stroke="#f0c54a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 8"/>
+<circle cx="891" cy="2122" r="6" fill="#14756b" stroke="none" stroke-width="3"/>
+<path d="M765 2149 v20 M740 2169 h50 M748 2180 h34 M757 2191 h16" fill="none" stroke="#14756b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="510" y="2055" font-size="23" fill="#245c82" font-weight="700" text-anchor="start">N</text>
+<text x="814" y="2108" font-size="23" fill="#14756b" font-weight="700" text-anchor="start">PE</text>
+<text x="180" y="2221" font-size="18" fill="#536476" font-weight="400" text-anchor="middle">Источник</text>
+<text x="765" y="2221" font-size="18" fill="#14756b" font-weight="400" text-anchor="middle">Установка</text>
+<path d="M180 2205 C270 2184,365 2225,450 2205 S650 2184,765 2205" fill="none" stroke="#956638" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 9"/>
+<text x="465" y="2185" font-size="18" fill="#956638" font-weight="400" text-anchor="middle">Грунт: конечное сопротивление</text>
+<text x="76" y="2253" font-size="21" fill="#142d42" font-weight="700" text-anchor="start">PE корпуса не соединён с N: путь повреждения включает местный заземлитель и грунт.</text>
+<text x="76" y="2289" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Согласование заземлителя и УДТ (УЗО) проверяют отдельно; PE и УЗО не заменяют друг друга.</text>
+<text x="48" y="2355" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Точки — электрические соединения. Пересечение границы корпуса проводом не означает связь с корпусом.</text>
+<text x="48" y="2392" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Цвет линии помогает читать эту иллюстрацию; фактическую роль провода по одному цвету не устанавливают.</text>
+<text x="48" y="2430" font-size="20" fill="#536476" font-weight="400" text-anchor="start">Аппараты защиты, повторные заземления и уравнивание потенциалов здесь не детализированы.</text>
+<text x="48" y="2470" font-size="22" fill="#142d42" font-weight="700" text-anchor="start">Это объяснение принципов, а не монтажный проект</text>
+<text x="48" y="2503" font-size="22" fill="#142d42" font-weight="700" text-anchor="start">и не способ определить систему своей квартиры.</text>
+</g>
+</svg>
