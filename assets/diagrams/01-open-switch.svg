@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="810" viewBox="0 0 1280 810" role="img" aria-labelledby="title desc">
+  <title id="title">Разомкнутый выключатель прерывает ток, но не убирает напряжение источника</title>
+  <desc id="desc">Учебная принципиальная схема идеальной цепи: батарейный источник B1 из двух элементов AA с заданным напряжением 3 вольта, разомкнутый выключатель S1 и резистор R1 1 килоом мощностью не менее 0,25 ватта соединены последовательно. Единственный разрыв расположен у S1. Ток в цепи равен нулю. Между клеммами источника сохраняются 3 вольта; между контактами A и B разомкнутого S1 также 3 вольта. Это бумажный разбор, не инструкция сборки и не схема квартирной сети.</desc>
+  <rect width="1280" height="810" rx="24" fill="#f4f7fa"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="58" y="57" fill="#14756b" font-size="18" font-weight="700" letter-spacing="1.7">ГЛАВА 01 · УЧЕБНАЯ ПРИНЦИПИАЛЬНАЯ СХЕМА</text>
+    <text x="58" y="109" fill="#142d42" font-size="32" font-weight="700">Выключатель разомкнут. Напряжение осталось.</text>
+    <text x="58" y="146" fill="#536476" font-size="19">Идеальная модель: напряжение батарейного источника задано равным 3 В.</text>
+
+    <rect x="58" y="176" width="1164" height="413" rx="18" fill="#ffffff" stroke="#dce5ed" stroke-width="2"/>
+
+    <!-- B1 is two series cells. The top long plate is the positive terminal. -->
+    <g stroke="#24465e" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M280 332 V280 H505"/>
+      <path d="M625 280 H990 V340"/>
+      <path d="M990 430 V490 H280 V414"/>
+      <path d="M280 356 V390"/>
+      <path d="M235 332 H325 M255 356 H305 M235 390 H325 M255 414 H305"/>
+
+      <!-- S1 has two contacts and an open blade, with no hidden bypass. -->
+      <path d="M505 280 L595 229"/>
+      <circle cx="505" cy="280" r="6" fill="#ffffff"/>
+      <circle cx="625" cy="280" r="6" fill="#ffffff"/>
+
+      <!-- R1 uses the IEC rectangular resistor symbol. -->
+      <rect x="963" y="340" width="54" height="90" fill="#e0f2ed"/>
+    </g>
+
+    <text x="209" y="329" fill="#14756b" font-size="28" font-weight="700">+</text>
+    <text x="211" y="436" fill="#536476" font-size="28" font-weight="700">−</text>
+    <text x="346" y="382" fill="#142d42" font-size="23" font-weight="700">B1 · 2 × AA</text>
+    <text x="346" y="418" fill="#14756b" font-size="23" font-weight="700">U = 3 В</text>
+    <text x="346" y="447" fill="#536476" font-size="18">между клеммами батареи</text>
+
+    <text x="560" y="211" text-anchor="middle" fill="#142d42" font-size="22" font-weight="700">S1 разомкнут</text>
+    <text x="484" y="316" fill="#536476" font-size="20" font-weight="700">A</text>
+    <text x="635" y="316" fill="#536476" font-size="20" font-weight="700">B</text>
+    <text x="565" y="345" text-anchor="middle" fill="#14756b" font-size="21" font-weight="700">Между A и B: 3 В</text>
+
+    <text x="1046" y="368" fill="#142d42" font-size="23" font-weight="700">R1</text>
+    <text x="1046" y="401" fill="#142d42" font-size="23">1 кОм</text>
+    <text x="1046" y="433" fill="#536476" font-size="20">≥ 0,25 Вт</text>
+
+    <rect x="687" y="391" width="188" height="62" rx="12" fill="#e6eff8"/>
+    <text x="781" y="433" text-anchor="middle" fill="#245c82" font-size="31" font-weight="700">I = 0</text>
+
+    <text x="84" y="543" fill="#536476" font-size="18">Линии — идеальные проводники. Единственный разрыв — у S1.</text>
+    <text x="84" y="570" fill="#536476" font-size="18">Утечки и измерительный прибор в этой модели отсутствуют.</text>
+
+    <rect x="58" y="612" width="564" height="105" rx="14" fill="#e6eff8"/>
+    <text x="82" y="649" fill="#245c82" font-size="23" font-weight="700">Тока нет: I = 0</text>
+    <text x="82" y="682" fill="#35586f" font-size="18">Разрыв прерывает путь тока по цепи.</text>
+
+    <rect x="642" y="612" width="580" height="105" rx="14" fill="#e0f2ed"/>
+    <text x="666" y="649" fill="#11695f" font-size="23" font-weight="700">Напряжение есть: U = 3 В</text>
+    <text x="666" y="681" fill="#244d48" font-size="18">На батарее и на разомкнутом выключателе.</text>
+
+    <text x="58" y="759" fill="#536476" font-size="18">Только разбор на бумаге. Это не инструкция сборки и не схема квартирной сети.</text>
+    <text x="58" y="788" fill="#536476" font-size="18">Условия сборки и защита батарейного стенда — в главе 04.</text>
+  </g>
+</svg>
