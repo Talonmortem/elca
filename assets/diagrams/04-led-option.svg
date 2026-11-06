@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1180" viewBox="0 0 1200 1180" role="img" aria-labelledby="title desc">
 <title id="title">Необязательный опыт со светодиодом вместо резистора нагрузки</title>
-<desc id="desc">Слева принципиальная схема: выход P неизменного батарейного модуля с двумя AA, штатным выключателем S1 и постоянным резистором R0 1 кОм соединён с анодом A красного малоточного светодиода VD1, катод K соединён с M. На символе светодиода две стрелки направлены наружу. Резистор R1 снят, R0 остаётся у источника. Справа монтаж левой половины макетной платы: P в a2, M в a8, анод светодиода в e2, катод в e8. Боковые шины не используются; полярность выводов определяется по паспорту выбранного светодиода. При условных 3 В на батарее и прямом падении 1,8 В оценка тока составляет 1,2 мА, это не измерение и не обещание заданной яркости. Замена выполняется при выключенном S1 и вынутых обеих батарейках.</desc>
+<desc id="desc">Слева принципиальная схема: выход P неизменного батарейного модуля с двумя AA, штатным выключателем S1 и постоянным резистором R0 1 кОм соединён с анодом A красного малоточного светодиода VD1, катод K соединён с M. На символе светодиода две стрелки направлены наружу. Резистор R1 снят, R0 остаётся у источника. Справа монтаж левой половины макетной платы: P в a2, M в a8, анод светодиода в e2, катод в соседнем e3. Изолированная перемычка между b3 и b8 соединяет катод с M; она контактирует с платой только на концах. Корпус LED показан условно, не в масштабе. Боковые шины не используются; полярность выводов определяется по паспорту выбранного светодиода. При условных 3 В на батарее и прямом падении 1,8 В оценка тока составляет 1,2 мА, это не измерение и не обещание заданной яркости. Замена выполняется при выключенном S1 и вынутых обеих батарейках.</desc>
 <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10 Z" fill="#14756b"/></marker></defs>
 <rect width="1200" height="1180" fill="#ffffff"/>
 <g font-family="DejaVu Sans, Arial, sans-serif">
@@ -40,75 +40,83 @@
 <text x="900" y="315" font-size="20" fill="#536476" font-weight="700" text-anchor="middle">c</text>
 <text x="960" y="315" font-size="20" fill="#536476" font-weight="700" text-anchor="middle">d</text>
 <text x="1020" y="315" font-size="20" fill="#536476" font-weight="700" text-anchor="middle">e</text>
-<rect x="768" y="326" width="264" height="28" rx="14" fill="#dcf2e9" stroke="none" stroke-width="0" />
-<path d="M780 340 H1020" fill="none" stroke="#14756b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
-<text x="742" y="347" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">2</text>
+<rect x="768" y="326" width="264" height="28" rx="14" fill="#dcf2e9"/>
+<path d="M780 340 H1020" fill="none" stroke="#14756b" stroke-width="5" stroke-linecap="round"/>
+<text x="742" y="347" font-size="19" fill="#536476" text-anchor="middle">2</text>
 <circle cx="780" cy="340" r="6" fill="#ffffff" stroke="#14756b" stroke-width="2"/>
 <circle cx="840" cy="340" r="6" fill="#ffffff" stroke="#14756b" stroke-width="2"/>
 <circle cx="900" cy="340" r="6" fill="#ffffff" stroke="#14756b" stroke-width="2"/>
 <circle cx="960" cy="340" r="6" fill="#ffffff" stroke="#14756b" stroke-width="2"/>
 <circle cx="1020" cy="340" r="6" fill="#ffffff" stroke="#14756b" stroke-width="2"/>
-<path d="M780 384 H1020" fill="none" stroke="#b7c5cf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-<text x="742" y="391" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">3</text>
-<circle cx="780" cy="384" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
-<circle cx="840" cy="384" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
-<circle cx="900" cy="384" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
-<circle cx="960" cy="384" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
-<circle cx="1020" cy="384" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
-<path d="M780 428 H1020" fill="none" stroke="#b7c5cf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-<text x="742" y="435" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">4</text>
+<rect x="768" y="370" width="264" height="28" rx="14" fill="#e0ecf5"/>
+<path d="M780 384 H1020" fill="none" stroke="#245c82" stroke-width="5" stroke-linecap="round"/>
+<text x="742" y="391" font-size="19" fill="#536476" text-anchor="middle">3</text>
+<circle cx="780" cy="384" r="6" fill="#ffffff" stroke="#245c82" stroke-width="2"/>
+<circle cx="840" cy="384" r="6" fill="#ffffff" stroke="#245c82" stroke-width="2"/>
+<circle cx="900" cy="384" r="6" fill="#ffffff" stroke="#245c82" stroke-width="2"/>
+<circle cx="960" cy="384" r="6" fill="#ffffff" stroke="#245c82" stroke-width="2"/>
+<circle cx="1020" cy="384" r="6" fill="#ffffff" stroke="#245c82" stroke-width="2"/>
+<path d="M780 428 H1020" fill="none" stroke="#b7c5cf" stroke-width="3" stroke-linecap="round"/>
+<text x="742" y="435" font-size="19" fill="#536476" text-anchor="middle">4</text>
 <circle cx="780" cy="428" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
 <circle cx="840" cy="428" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
 <circle cx="900" cy="428" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
 <circle cx="960" cy="428" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
 <circle cx="1020" cy="428" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
-<path d="M780 472 H1020" fill="none" stroke="#b7c5cf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-<text x="742" y="479" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">5</text>
+<path d="M780 472 H1020" fill="none" stroke="#b7c5cf" stroke-width="3" stroke-linecap="round"/>
+<text x="742" y="479" font-size="19" fill="#536476" text-anchor="middle">5</text>
 <circle cx="780" cy="472" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
 <circle cx="840" cy="472" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
 <circle cx="900" cy="472" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
 <circle cx="960" cy="472" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
 <circle cx="1020" cy="472" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
-<path d="M780 516 H1020" fill="none" stroke="#b7c5cf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-<text x="742" y="523" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">6</text>
+<path d="M780 516 H1020" fill="none" stroke="#b7c5cf" stroke-width="3" stroke-linecap="round"/>
+<text x="742" y="523" font-size="19" fill="#536476" text-anchor="middle">6</text>
 <circle cx="780" cy="516" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
 <circle cx="840" cy="516" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
 <circle cx="900" cy="516" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
 <circle cx="960" cy="516" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
 <circle cx="1020" cy="516" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
-<path d="M780 560 H1020" fill="none" stroke="#b7c5cf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-<text x="742" y="567" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">7</text>
+<path d="M780 560 H1020" fill="none" stroke="#b7c5cf" stroke-width="3" stroke-linecap="round"/>
+<text x="742" y="567" font-size="19" fill="#536476" text-anchor="middle">7</text>
 <circle cx="780" cy="560" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
 <circle cx="840" cy="560" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
 <circle cx="900" cy="560" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
 <circle cx="960" cy="560" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
 <circle cx="1020" cy="560" r="6" fill="#ffffff" stroke="#b7c5cf" stroke-width="2"/>
-<rect x="768" y="590" width="264" height="28" rx="14" fill="#e0ecf5" stroke="none" stroke-width="0" />
-<path d="M780 604 H1020" fill="none" stroke="#245c82" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
-<text x="742" y="611" font-size="19" fill="#536476" font-weight="400" text-anchor="middle">8</text>
+<rect x="768" y="590" width="264" height="28" rx="14" fill="#e0ecf5"/>
+<path d="M780 604 H1020" fill="none" stroke="#245c82" stroke-width="5" stroke-linecap="round"/>
+<text x="742" y="611" font-size="19" fill="#536476" text-anchor="middle">8</text>
 <circle cx="780" cy="604" r="6" fill="#ffffff" stroke="#245c82" stroke-width="2"/>
 <circle cx="840" cy="604" r="6" fill="#ffffff" stroke="#245c82" stroke-width="2"/>
 <circle cx="900" cy="604" r="6" fill="#ffffff" stroke="#245c82" stroke-width="2"/>
 <circle cx="960" cy="604" r="6" fill="#ffffff" stroke="#245c82" stroke-width="2"/>
 <circle cx="1020" cy="604" r="6" fill="#ffffff" stroke="#245c82" stroke-width="2"/>
-<path d="M704 340 H728 V321 H760 V340 H780" fill="none" stroke="#14756b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
-<path d="M704 604 H728 V585 H760 V604 H780" fill="none" stroke="#245c82" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M704 340 H728 V321 H760 V340 H780" fill="none" stroke="#14756b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M704 604 H728 V585 H760 V604 H780" fill="none" stroke="#245c82" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="704" y="315" font-size="21" fill="#14756b" font-weight="700" text-anchor="middle">P</text>
 <text x="704" y="580" font-size="21" fill="#245c82" font-weight="700" text-anchor="middle">M</text>
-<path d="M1020 340 H1044 V492 H1065 V477" fill="none" stroke="#14756b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-<path d="M1085 477 V604 H1020" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-<path d="M1052 477 V438 A23 23 0 0 1 1098 438 V477 Z" fill="#eab0a0" stroke="#ac503f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-<path d="M1107 424 L1131 401" fill="none" stroke="#14756b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
-<path d="M1108 451 L1133 429" fill="none" stroke="#14756b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
-<text x="1062" y="381" font-size="21" fill="#14756b" font-weight="700" text-anchor="start">A</text>
-<text x="1097" y="552" font-size="21" fill="#245c82" font-weight="700" text-anchor="start">K</text>
-<circle cx="1020" cy="340" r="7" fill="#14756b" stroke="none" stroke-width="0"/>
-<circle cx="1020" cy="604" r="7" fill="#245c82" stroke="none" stroke-width="0"/>
-<circle cx="780" cy="340" r="7" fill="#14756b" stroke="none" stroke-width="0"/>
-<circle cx="780" cy="604" r="7" fill="#245c82" stroke="none" stroke-width="0"/>
-<text x="706" y="685" font-size="23" fill="#14756b" font-weight="700" text-anchor="start">Анод A → e2</text>
-<text x="706" y="722" font-size="23" fill="#245c82" font-weight="700" text-anchor="start">Катод K → e8</text>
-<text x="706" y="767" font-size="19" fill="#536476" font-weight="400" text-anchor="start">Внешний вид LED показан условно.</text>
+<!-- Jumper contacts only b3 and b8; white outline separates its insulated crossing from other rows. -->
+<path d="M840 384 H865 V604 H840" fill="none" stroke="#ffffff" stroke-width="13" stroke-linejoin="round"/>
+<path d="M840 384 H865 V604 H840" fill="none" stroke="#77609a" stroke-width="6" stroke-linejoin="round"/>
+<circle cx="840" cy="384" r="7" fill="#77609a"/>
+<circle cx="840" cy="604" r="7" fill="#77609a"/>
+<!-- LED lies across adjacent rows, with the body drawn beside the board for clarity. -->
+<path d="M1020 340 H1060" fill="none" stroke="#14756b" stroke-width="4"/>
+<path d="M1020 384 H1060" fill="none" stroke="#245c82" stroke-width="4"/>
+<path d="M1060 330 H1086 A32 32 0 0 1 1086 394 H1060 Z" fill="#eab0a0" stroke="#ac503f" stroke-width="3" stroke-linejoin="round"/>
+<path d="M1120 343 L1143 321" fill="none" stroke="#14756b" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M1122 379 L1144 358" fill="none" stroke="#14756b" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="1044" y="328" font-size="20" fill="#14756b" font-weight="700" text-anchor="middle">A</text>
+<text x="1044" y="415" font-size="20" fill="#245c82" font-weight="700" text-anchor="middle">K</text>
+<circle cx="1020" cy="340" r="7" fill="#14756b"/>
+<circle cx="1020" cy="384" r="7" fill="#245c82"/>
+<circle cx="780" cy="340" r="7" fill="#14756b"/>
+<circle cx="780" cy="604" r="7" fill="#245c82"/>
+<text x="706" y="685" font-size="23" fill="#14756b" font-weight="700">Анод A → e2</text>
+<text x="706" y="722" font-size="23" fill="#245c82" font-weight="700">Катод K → e3</text>
+<text x="706" y="761" font-size="23" fill="#77609a" font-weight="700">Перемычка b3 ↔ b8</text>
+<text x="706" y="794" font-size="18" fill="#536476">Контакт — только в b3 и b8.</text>
 <rect x="48" y="840" width="1104" height="151" rx="16" fill="#edf8f5" stroke="#b9dcd2" stroke-width="2" />
 <text x="72" y="879" font-size="23" fill="#142d42" font-weight="700" text-anchor="start">Условная оценка, а не измерение</text>
 <text x="72" y="922" font-size="23" fill="#14756b" font-weight="700" text-anchor="start">При U_B = 3,0 В и U_F = 1,8 В: I ≈ (3 − 1,8) / 1000 = 1,2 мА.</text>
@@ -116,6 +124,6 @@
 <rect x="48" y="1015" width="1104" height="132" rx="16" fill="#fff7ed" stroke="#e6ceaa" stroke-width="2" />
 <text x="72" y="1054" font-size="23" fill="#9b5d15" font-weight="700" text-anchor="start">Перед заменой R1 на VD1: S1 = OFF и обе AA вынуты.</text>
 <text x="72" y="1091" font-size="21" fill="#142d42" font-weight="400" text-anchor="start">R0 остаётся в закрытой части. Не замыкать выводы для «проверки».</text>
-<text x="72" y="1125" font-size="21" fill="#536476" font-weight="400" text-anchor="start">Свечение не подтверждает исправность всех соединений стенда.</text>
+<text x="72" y="1125" font-size="21" fill="#536476" font-weight="400" text-anchor="start">После опыта: убрать LED и перемычку, вернуть R1.</text>
 </g>
 </svg>
