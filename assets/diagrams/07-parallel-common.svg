@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1120" viewBox="0 0 1200 1120" role="img" aria-labelledby="title desc">
+<title id="title">Общий участок и две параллельные ветви</title>
+<desc id="desc">Бумажная принципиальная модель с идеальными 3 В постоянного тока. Общий выключатель S0 и резистор R0 1 кОм стоят перед узлом P. Между P и M две ветви: S1 с R1 1 кОм и S2 с R2 1 кОм. Все выключатели изображены замкнутыми. Ток общей части разделяется на токи ветвей и снова складывается в обратном участке. При обеих замкнутых ветвях I общий 2 мА, I1 и I2 по 1 мА, напряжение P–M 1 В. При размыкании S2 ток I1 становится 1,5 мА, I2 равен нулю. При размыкании общего S0 все токи равны нулю. Это расчёт на бумаге, исходный стенд не перестраивают.</desc>
+<defs><marker id="arrow" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5.5 L0 11 Z" fill="#14756b"/></marker></defs>
+<rect width="1200" height="1120" fill="#ffffff"/>
+<g font-family="DejaVu Sans, Arial, sans-serif">
+<text x="48" y="48" font-size="19" fill="#14756b" font-weight="700" text-anchor="start" >ГЛАВА 07 · ПРИНЦИПИАЛЬНАЯ СХЕМА ДЛЯ РАСЧЁТА</text>
+<text x="48" y="98" font-size="34" fill="#142d42" font-weight="700" text-anchor="start" >До ветвления ток общий</text>
+<text x="48" y="139" font-size="21" fill="#536476" font-weight="400" text-anchor="start" >Бумажная модель: 3 В DC; R0 = R1 = R2 = 1 кОм. Провода идеальные.</text>
+<rect x="48" y="175" width="1104" height="573" rx="14" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2" />
+<path d="M160 280 H300 M370 280 H440 M565 280 H1040 V345 M160 280 V370 M160 395 V425 M160 450 V650 H1040 V555" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M130 370 H190 M144 395 H176 M130 425 H190 M144 450 H176" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<text x="119" y="380" font-size="26" fill="#14756b" font-weight="700" text-anchor="middle" >+</text>
+<text x="119" y="459" font-size="26" fill="#536476" font-weight="700" text-anchor="middle" >−</text>
+<text x="215" y="404" font-size="24" fill="#142d42" font-weight="700" text-anchor="start" >B1</text>
+<text x="215" y="440" font-size="23" fill="#142d42" font-weight="700" text-anchor="start" >3 В DC</text>
+<text x="215" y="476" font-size="20" fill="#536476" font-weight="400" text-anchor="start" >идеальный источник</text>
+<circle cx="300" cy="280" r="6" fill="#fff" stroke="#245c82" stroke-width="3"/>
+<circle cx="370" cy="280" r="6" fill="#fff" stroke="#245c82" stroke-width="3"/>
+<path d="M300 280 H370" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<text x="335" y="247" font-size="24" fill="#142d42" font-weight="700" text-anchor="middle" >S0</text>
+<text x="335" y="322" font-size="20" fill="#536476" font-weight="400" text-anchor="middle" >замкнут</text>
+<rect x="440" y="258" width="125" height="44" rx="0" fill="#edf8f5" stroke="#245c82" stroke-width="4" />
+<text x="502" y="240" font-size="25" fill="#142d42" font-weight="700" text-anchor="middle" >R0</text>
+<text x="502" y="342" font-size="23" fill="#142d42" font-weight="700" text-anchor="middle" >1 кОм</text>
+<path d="M615 238 H746" fill="none" stroke="#14756b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="679" y="220" font-size="23" fill="#14756b" font-weight="700" text-anchor="middle" >Iобщ</text>
+<text x="470" y="383" font-size="21" fill="#536476" font-weight="400" text-anchor="start" >Общий путь</text>
+<text x="470" y="414" font-size="21" fill="#536476" font-weight="400" text-anchor="start" >до узла P</text>
+<path d="M790 280 V345 M790 395 V455 M790 555 V650 M1040 395 V455" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="790" cy="345" r="6" fill="#fff" stroke="#245c82" stroke-width="3"/>
+<circle cx="790" cy="395" r="6" fill="#fff" stroke="#245c82" stroke-width="3"/>
+<path d="M790 345 V395" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<text x="758" y="360" font-size="24" fill="#142d42" font-weight="700" text-anchor="end" >S1</text>
+<text x="758" y="392" font-size="18" fill="#536476" font-weight="400" text-anchor="end" >замкнут</text>
+<circle cx="1040" cy="345" r="6" fill="#fff" stroke="#245c82" stroke-width="3"/>
+<circle cx="1040" cy="395" r="6" fill="#fff" stroke="#245c82" stroke-width="3"/>
+<path d="M1040 345 V395" fill="none" stroke="#245c82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<text x="1008" y="360" font-size="24" fill="#142d42" font-weight="700" text-anchor="end" >S2</text>
+<text x="1008" y="392" font-size="18" fill="#536476" font-weight="400" text-anchor="end" >замкнут</text>
+<rect x="768" y="455" width="44" height="100" rx="0" fill="#edf8f5" stroke="#245c82" stroke-width="4" />
+<text x="752" y="491" font-size="24" fill="#142d42" font-weight="700" text-anchor="end" >R1</text>
+<text x="752" y="527" font-size="22" fill="#142d42" font-weight="400" text-anchor="end" >1 кОм</text>
+<rect x="1018" y="455" width="44" height="100" rx="0" fill="#edf8f5" stroke="#245c82" stroke-width="4" />
+<text x="1002" y="491" font-size="24" fill="#142d42" font-weight="700" text-anchor="end" >R2</text>
+<text x="1002" y="527" font-size="22" fill="#142d42" font-weight="400" text-anchor="end" >1 кОм</text>
+<circle cx="790" cy="280" r="8" fill="#245c82" stroke="none" stroke-width="0"/>
+<circle cx="790" cy="650" r="8" fill="#245c82" stroke="none" stroke-width="0"/>
+<text x="790" y="248" font-size="26" fill="#14756b" font-weight="700" text-anchor="middle" >P</text>
+<text x="790" y="688" font-size="26" fill="#14756b" font-weight="700" text-anchor="middle" >M</text>
+<path d="M845 463 V542" fill="none" stroke="#14756b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="862" y="512" font-size="22" fill="#14756b" font-weight="700" text-anchor="start" >I1</text>
+<path d="M1090 463 V542" fill="none" stroke="#14756b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1107" y="512" font-size="22" fill="#14756b" font-weight="700" text-anchor="start" >I2</text>
+<path d="M634 693 H443" fill="none" stroke="#14756b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="535" y="727" font-size="22" fill="#14756b" font-weight="700" text-anchor="middle" >Iобщ = I1 + I2</text>
+<text x="190" y="610" font-size="22" fill="#536476" font-weight="400" text-anchor="start" >Общий обратный участок</text>
+<rect x="48" y="779" width="1104" height="250" rx="14" fill="#f7f9fb" stroke="#dce5ed" stroke-width="2" />
+<text x="72" y="821" font-size="23" fill="#142d42" font-weight="700" text-anchor="start" >Состояние выключателей</text>
+<text x="655" y="821" font-size="23" fill="#142d42" font-weight="700" text-anchor="middle" >Iобщ</text>
+<text x="858" y="821" font-size="23" fill="#142d42" font-weight="700" text-anchor="middle" >I1</text>
+<text x="1060" y="821" font-size="23" fill="#142d42" font-weight="700" text-anchor="middle" >I2</text>
+<path d="M72 843 H1128" fill="none" stroke="#cbd7e0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<text x="72" y="883" font-size="23" fill="#142d42" font-weight="400" text-anchor="start" >S0, S1, S2 замкнуты</text>
+<text x="655" y="883" font-size="23" fill="#14756b" font-weight="700" text-anchor="middle" >2 мА</text>
+<text x="858" y="883" font-size="23" fill="#14756b" font-weight="700" text-anchor="middle" >1 мА</text>
+<text x="1060" y="883" font-size="23" fill="#14756b" font-weight="700" text-anchor="middle" >1 мА</text>
+<text x="72" y="938" font-size="23" fill="#142d42" font-weight="400" text-anchor="start" >Только S2 разомкнут</text>
+<text x="655" y="938" font-size="23" fill="#14756b" font-weight="700" text-anchor="middle" >1,5 мА</text>
+<text x="858" y="938" font-size="23" fill="#14756b" font-weight="700" text-anchor="middle" >1,5 мА</text>
+<text x="1060" y="938" font-size="23" fill="#14756b" font-weight="700" text-anchor="middle" >0</text>
+<text x="72" y="993" font-size="23" fill="#142d42" font-weight="400" text-anchor="start" >Только S0 разомкнут</text>
+<text x="655" y="993" font-size="23" fill="#14756b" font-weight="700" text-anchor="middle" >0</text>
+<text x="858" y="993" font-size="23" fill="#14756b" font-weight="700" text-anchor="middle" >0</text>
+<text x="1060" y="993" font-size="23" fill="#14756b" font-weight="700" text-anchor="middle" >0</text>
+<text x="48" y="1066" font-size="22" fill="#142d42" font-weight="700" text-anchor="start" >Обе ветви замкнуты: R1 ∥ R2 = 500 Ом; U(P–M) = 1 В.</text>
+<text x="48" y="1100" font-size="20" fill="#536476" font-weight="400" text-anchor="start" >Только расчёт на бумаге. Исходный стенд главы 04 не перестраивают.</text>
+</g>
+</svg>

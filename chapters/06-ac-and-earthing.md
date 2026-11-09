@@ -435,7 +435,7 @@ X — L, Y — N, Z — PE. Рабочая цепь: источник → X → 
 ## Навигация
 
 **Предыдущая глава:** [05 — Мультиметр без опасных привычек](05-multimeter.md).\
-**Следующая тема:** 07 — «Чтение схем и электрические группы». Задание — в [общем черновике](../COURSE_DRAFT.md#глава-07); актуальная точка продолжения — в [PROGRESS.md](../PROGRESS.md).
+**Следующая глава:** [07 — Чтение схем и электрические группы](07-schematics-groups.md). Актуальная точка продолжения — в [PROGRESS.md](../PROGRESS.md).
 
 [ac]: https://openstax.org/books/university-physics-volume-2/pages/15-1-ac-sources
 [rms-theory]: https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits
