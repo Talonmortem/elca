@@ -482,7 +482,7 @@ X2/X3 — пример разных комнат при общем QF2. X5/X6 �
 ## Навигация
 
 **Предыдущая глава:** [06 — Переменный ток, фаза, ноль и земля](06-ac-and-earthing.md).\
-**Следующая тема:** 08 — «Провода, кабели и условия прокладки». Задание — в [общем черновике](../COURSE_DRAFT.md#глава-08); актуальная точка продолжения — в [PROGRESS.md](../PROGRESS.md).
+**Следующая глава:** [08 — Провода, кабели и условия прокладки](08-cables.md). Актуальная точка продолжения — в [PROGRESS.md](../PROGRESS.md).
 
 [drawing-types]: https://www.eit.edu.au/resources/electrical-drawings-and-schematics/
 [symbols]: https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/
@@ -494,3 +494,4 @@ X2/X3 — пример разных комнат при общем QF2. X5/X6 �
 [photo-board]: https://commons.wikimedia.org/wiki/File:Electronics-White-Breadboard.jpg
 [photo-breakers]: https://commons.wikimedia.org/wiki/File:Circuit_breaker_10amps.jpg
 [photo-cable]: https://commons.wikimedia.org/wiki/File:Installation_Cable_MMJ_3x2,5S.jpg
+

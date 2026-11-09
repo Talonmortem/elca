@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="790" viewBox="0 0 1200 790" role="img" aria-labelledby="title desc">
+<title id="title">Способ прокладки меняет отвод тепла</title><desc id="desc">Два условных поперечных разреза. Один кабель отдаёт тепло окружающему воздуху, группа кабелей находится в трубе внутри теплоизоляции. Условия сравниваются качественно, без назначения допустимых токов.</desc>
+<rect width="1200" height="790" fill="white"/>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#2563a6"/></marker><marker id="heat" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#c47a32"/></marker><pattern id="hatch" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><rect width="16" height="16" fill="#f3e9d9"/><path d="M0 0 V16" stroke="#decdb5" stroke-width="4"/></pattern></defs>
+<g font-family="DejaVu Sans, sans-serif">
+<text x="40" y="57" font-size="38" fill="#192b3f" font-weight="bold">Одинаковое сечение — разные условия</text>
+<text x="40" y="96" font-size="22" fill="#506177">Сравнение факторов, не монтажный проект. Все размеры и слои условны.</text>
+<rect x="35" y="125" width="550" height="470" rx="14" fill="#f6f8fb"/>
+<rect x="615" y="125" width="550" height="470" rx="14" fill="#f6f8fb"/>
+<text x="60" y="165" font-size="26" fill="#192b3f" font-weight="bold">A. Отдельный кабель в воздухе</text>
+<text x="640" y="165" font-size="26" fill="#192b3f" font-weight="bold">B. Пучок, труба, теплоизоляция</text>
+<circle cx="310" cy="350" r="74" fill="#4a5565" stroke="#192b3f" stroke-width="2"/>
+<circle cx="310" cy="350" r="59.2" fill="#e7decb"/>
+<circle cx="310.0" cy="379.6" r="19.240000000000002" fill="#92b6d0" stroke="#192b3f" stroke-width="1"/>
+<circle cx="310.0" cy="379.6" r="8.879999999999999" fill="#d79149" stroke="#8b542a" stroke-width="1"/>
+<circle cx="284.36564804798064" cy="335.2" r="19.240000000000002" fill="#92b6d0" stroke="#192b3f" stroke-width="1"/>
+<circle cx="284.36564804798064" cy="335.2" r="8.879999999999999" fill="#d79149" stroke="#8b542a" stroke-width="1"/>
+<circle cx="335.63435195201936" cy="335.2" r="19.240000000000002" fill="#92b6d0" stroke="#192b3f" stroke-width="1"/>
+<circle cx="335.63435195201936" cy="335.2" r="8.879999999999999" fill="#d79149" stroke="#8b542a" stroke-width="1"/>
+<path d="M401.0 350.0 L464.0 350.0" stroke="#c47a32" stroke-width="3" fill="none" marker-end="url(#heat)"/>
+<path d="M374.3 414.3 L418.9 458.9" stroke="#c47a32" stroke-width="3" fill="none" marker-end="url(#heat)"/>
+<path d="M310.0 441.0 L310.0 504.0" stroke="#c47a32" stroke-width="3" fill="none" marker-end="url(#heat)"/>
+<path d="M245.7 414.3 L201.1 458.9" stroke="#c47a32" stroke-width="3" fill="none" marker-end="url(#heat)"/>
+<path d="M219.0 350.0 L156.0 350.0" stroke="#c47a32" stroke-width="3" fill="none" marker-end="url(#heat)"/>
+<path d="M245.7 285.7 L201.1 241.1" stroke="#c47a32" stroke-width="3" fill="none" marker-end="url(#heat)"/>
+<path d="M310.0 259.0 L310.0 196.0" stroke="#c47a32" stroke-width="3" fill="none" marker-end="url(#heat)"/>
+<path d="M374.3 285.7 L418.9 241.1" stroke="#c47a32" stroke-width="3" fill="none" marker-end="url(#heat)"/>
+<text x="310" y="550" font-size="22" fill="#192b3f" text-anchor="middle">Тепло уходит в окружающий воздух.</text>
+<rect x="660" y="205" width="460" height="300" rx="0" fill="url(#hatch)"/>
+<circle cx="890" cy="355" r="132" fill="#708397" stroke="#192b3f" stroke-width="3"/>
+<circle cx="890" cy="355" r="119" fill="#fcfcfd"/>
+<circle cx="848" cy="325" r="40" fill="#4a5565" stroke="#192b3f" stroke-width="2"/>
+<circle cx="848" cy="325" r="32.0" fill="#e7decb"/>
+<circle cx="848.0" cy="341.0" r="10.4" fill="#92b6d0" stroke="#192b3f" stroke-width="1"/>
+<circle cx="848.0" cy="341.0" r="4.8" fill="#d79149" stroke="#8b542a" stroke-width="1"/>
+<circle cx="834.143593539449" cy="317.0" r="10.4" fill="#92b6d0" stroke="#192b3f" stroke-width="1"/>
+<circle cx="834.143593539449" cy="317.0" r="4.8" fill="#d79149" stroke="#8b542a" stroke-width="1"/>
+<circle cx="861.856406460551" cy="317.0" r="10.4" fill="#92b6d0" stroke="#192b3f" stroke-width="1"/>
+<circle cx="861.856406460551" cy="317.0" r="4.8" fill="#d79149" stroke="#8b542a" stroke-width="1"/>
+<circle cx="932" cy="325" r="40" fill="#4a5565" stroke="#192b3f" stroke-width="2"/>
+<circle cx="932" cy="325" r="32.0" fill="#e7decb"/>
+<circle cx="932.0" cy="341.0" r="10.4" fill="#92b6d0" stroke="#192b3f" stroke-width="1"/>
+<circle cx="932.0" cy="341.0" r="4.8" fill="#d79149" stroke="#8b542a" stroke-width="1"/>
+<circle cx="918.143593539449" cy="317.0" r="10.4" fill="#92b6d0" stroke="#192b3f" stroke-width="1"/>
+<circle cx="918.143593539449" cy="317.0" r="4.8" fill="#d79149" stroke="#8b542a" stroke-width="1"/>
+<circle cx="945.856406460551" cy="317.0" r="10.4" fill="#92b6d0" stroke="#192b3f" stroke-width="1"/>
+<circle cx="945.856406460551" cy="317.0" r="4.8" fill="#d79149" stroke="#8b542a" stroke-width="1"/>
+<circle cx="890" cy="402" r="40" fill="#4a5565" stroke="#192b3f" stroke-width="2"/>
+<circle cx="890" cy="402" r="32.0" fill="#e7decb"/>
+<circle cx="890.0" cy="418.0" r="10.4" fill="#92b6d0" stroke="#192b3f" stroke-width="1"/>
+<circle cx="890.0" cy="418.0" r="4.8" fill="#d79149" stroke="#8b542a" stroke-width="1"/>
+<circle cx="876.143593539449" cy="394.0" r="10.4" fill="#92b6d0" stroke="#192b3f" stroke-width="1"/>
+<circle cx="876.143593539449" cy="394.0" r="4.8" fill="#d79149" stroke="#8b542a" stroke-width="1"/>
+<circle cx="903.856406460551" cy="394.0" r="10.4" fill="#92b6d0" stroke="#192b3f" stroke-width="1"/>
+<circle cx="903.856406460551" cy="394.0" r="4.8" fill="#d79149" stroke="#8b542a" stroke-width="1"/>
+<path d="M1030 355 H1093" stroke="#c47a32" stroke-width="3" fill="none" marker-end="url(#heat)"/>
+<text x="890" y="536" font-size="18" fill="#192b3f" text-anchor="middle">Соседние нагруженные кабели греют друг друга.</text>
+<text x="890" y="569" font-size="22" fill="#192b3f" text-anchor="middle">Теплоизоляция затрудняет отвод тепла.</text>
+<rect x="35" y="619" width="1130" height="133" rx="14" fill="#edf4fb"/>
+<text x="58" y="657" font-size="24" fill="#192b3f" font-weight="bold">Для сравниваемой линии заданы одинаковые материал, сечение и ток.</text>
+<text x="58" y="695" font-size="22" fill="#192b3f">Температура зависит и от того, сколько тепла выделяется, и от того, как оно отводится.</text>
+<text x="58" y="730" font-size="21" fill="#506177">Допустимый ток берут для конкретного кабеля и условий; коэффициент «на глаз» не назначают.</text>
+</g></svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+<title id="title">Учебный разбор маркировки ВВГнг(А)-LS 3×2,5 0,66 кВ</title><desc id="desc">Объяснение маркировки для выбранного семейства силовых кабелей. Разбор не подтверждает характеристики неизвестного образца.</desc>
+<rect width="1200" height="820" fill="white"/>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#2563a6"/></marker><marker id="heat" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#c47a32"/></marker><pattern id="hatch" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><rect width="16" height="16" fill="#f3e9d9"/><path d="M0 0 V16" stroke="#decdb5" stroke-width="4"/></pattern></defs>
+<g font-family="DejaVu Sans, sans-serif">
+<text x="40" y="57" font-size="38" fill="#192b3f" font-weight="bold">Как читать выбранную марку кабеля</text>
+<text x="40" y="96" font-size="22" fill="#506177">Учебный пример. Полное исполнение уточняют по паспорту изготовителя.</text>
+<rect x="40" y="125" width="1120" height="92" rx="14" fill="#edf4fb"/>
+<text x="600" y="187" font-size="48" fill="#2563a6" font-weight="bold" text-anchor="middle">ВВГнг(А)-LS   3 × 2,5   0,66 кВ</text>
+<rect x="40" y="245" width="545" height="116" rx="14" fill="#f6f8fb"/>
+<text x="60" y="279" font-size="28" fill="#192b3f" font-weight="bold">ВВГ</text>
+<text x="60" y="313" font-size="21" fill="#192b3f">В — ПВХ-изоляция; В — ПВХ-оболочка.</text>
+<text x="60" y="342" font-size="20" fill="#506177">Г — без защитного покрова в этой марке.</text>
+<rect x="615" y="245" width="545" height="116" rx="14" fill="#f6f8fb"/>
+<text x="635" y="279" font-size="28" fill="#192b3f" font-weight="bold">Без «А» перед ВВГ</text>
+<text x="635" y="313" font-size="21" fill="#192b3f">В этом семействе — медные жилы (Cu).</text>
+<text x="635" y="342" font-size="20" fill="#506177">Не универсальное правило для всех марок.</text>
+<rect x="40" y="379" width="545" height="116" rx="14" fill="#f6f8fb"/>
+<text x="60" y="413" font-size="28" fill="#192b3f" font-weight="bold">нг(А)</text>
+<text x="60" y="447" font-size="21" fill="#192b3f">Не распространяет горение при групповой</text>
+<text x="60" y="476" font-size="20" fill="#506177">прокладке: испытание по категории А.</text>
+<rect x="615" y="379" width="545" height="116" rx="14" fill="#f6f8fb"/>
+<text x="635" y="413" font-size="28" fill="#192b3f" font-weight="bold">LS</text>
+<text x="635" y="447" font-size="21" fill="#192b3f">Пониженное дымо- и газовыделение.</text>
+<text x="635" y="476" font-size="20" fill="#506177">Не означает отсутствие дыма при пожаре.</text>
+<rect x="40" y="513" width="545" height="116" rx="14" fill="#f6f8fb"/>
+<text x="60" y="547" font-size="28" fill="#192b3f" font-weight="bold">3 × 2,5</text>
+<text x="60" y="581" font-size="21" fill="#192b3f">Три жилы; номинальное сечение каждой</text>
+<text x="60" y="610" font-size="20" fill="#506177">жилы — 2,5 мм². Это не диаметр 2,5 мм.</text>
+<rect x="615" y="513" width="545" height="116" rx="14" fill="#f6f8fb"/>
+<text x="635" y="547" font-size="28" fill="#192b3f" font-weight="bold">0,66 кВ</text>
+<text x="635" y="581" font-size="21" fill="#192b3f">Номинальное напряжение этого исполнения.</text>
+<text x="635" y="610" font-size="20" fill="#506177">Не значение напряжения в любой розетке.</text>
+<rect x="40" y="654" width="1120" height="124" rx="14" fill="#fff3e8"/>
+<text x="62" y="691" font-size="27" fill="#192b3f" font-weight="bold">«нг» не означает «кабель негорючий».</text>
+<text x="62" y="729" font-size="22" fill="#192b3f">LS само по себе не означает огнестойкость (FR) или отсутствие галогенов (HF).</text>
+<text x="62" y="760" font-size="20" fill="#506177">Не переносить это исполнение на неизвестный кабель по одному внешнему сходству.</text>
+</g></svg>
